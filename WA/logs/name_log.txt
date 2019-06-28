@@ -1,0 +1,102 @@
+-------------Summary----------------
+FDA retailers inputted: 14
+At least one match found for 2 FDA retailers
+Number of matches for each FDA retailer
+WA728641 1
+WA746082 1
+-------------FDA Store----------------
+REI                                                         WA728641
+DBA Name                              TIENDA DE ABARROTES LOS AMIGOS
+Address Line 1                                      209 S WAPATO AVE
+Address Line 2                                                   NaN
+City                                                          WAPATO
+State                                                             WA
+Zip                                                            98951
+Zip+4                                                            NaN
+County                                                        YAKIMA
+Business Status                                         In Operation
+On Tribal Land                                               Unknown
+Tribal Owned                                                 Unknown
+EST_COMMENTS       Turned to out of business- located on Indian R...
+Latitude                                                     46.4467
+Longitude                                                    -120.42
+Name: 3, dtype: object
+-------------SOS candidate 43----------------
+index                                                    265432
+id                                                    603468480
+bizname                     TIENDA DE ABARROTES LOS AMIGOS, LLC
+email                                                          
+phone                                                          
+paddress1                                      209 S WAPATO AVE
+paddress2                                                      
+Physical Address Line 3                                        
+pcity                                                    WAPATO
+pstate                                                       WA
+Physical Country                                               
+pzip                                                      98951
+Physical Zip4                                                  
+maddress1                                                      
+maddress2                                                      
+Mailing Address Line 3                                         
+mcity                                                          
+mstate                                                         
+Mailing Country                                                
+mzip                                                        NaN
+Mailig Zip4                                                    
+col20                                                      None
+name_score                                                    1
+common_flag                                                   0
+StreetName_score                                              1
+StreetNamePostType_score                                      1
+AddressNumber_score                                           1
+ZipCode_score                                                 1
+match                                                         1
+Name: 43, dtype: object
+-------------FDA Store----------------
+REI                                                         WA746082
+DBA Name                                             WOLF DEN TEXACO
+Address Line 1                                       61 W WAPATO RD.
+Address Line 2                                                   NaN
+City                                                          WAPATO
+State                                                             WA
+Zip                                                            98951
+Zip+4                                                            NaN
+County                                                           NaN
+Business Status                                         In Operation
+On Tribal Land                                               Unknown
+Tribal Owned                                                 Unknown
+EST_COMMENTS       Tribal (Confederated Tribes and Bands of the Y...
+Latitude                                                     46.4479
+Longitude                                                   -120.431
+Name: 12, dtype: object
+-------------SOS candidate 300----------------
+index                                            971233
+id                                            604207278
+bizname                                    WOLF DEN INC
+email                       LAVILLA@RAMSEYCOMPANIES.COM
+phone                                        5099853209
+paddress1                                61 W WAPATO RD
+paddress2                                              
+Physical Address Line 3                                
+pcity                                            WAPATO
+pstate                                               WA
+Physical Country                                    USA
+pzip                                              98951
+Physical Zip4                                      9532
+maddress1                                61 W WAPATO RD
+maddress2                                              
+Mailing Address Line 3                                 
+mcity                                            WAPATO
+mstate                                               WA
+Mailing Country                                     USA
+mzip                                              98951
+Mailig Zip4                                        9532
+col20                                              None
+name_score                                            1
+common_flag                                           0
+StreetName_score                                      1
+StreetNamePostType_score                              1
+AddressNumber_score                                   1
+ZipCode_score                                         1
+match                                                 1
+Name: 300, dtype: object
