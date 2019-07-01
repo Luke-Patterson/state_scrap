@@ -10,6 +10,10 @@ import numpy as np
 import usaddress as usa
 
 sos_df = pd.read_csv(abs_path + '/step_4_work/MN/candidate_records.csv')
+# append parts
+for i in range(2,6):
+    sos_df.append(pd.read_csv(abs_path + '/step_4_work/MN/candidate_records_pt' +
+        str(i)+'.csv'), ignore_index=True)
 fda_df = pd.read_csv(abs_path + "/step_3_work/output/full_retailer_list.csv")
 fda_df = fda_df.loc[[i in sos_df.IMPAQ_ID.values for i in fda_df.IMPAQ_ID.values]]
 # address parser for agent address

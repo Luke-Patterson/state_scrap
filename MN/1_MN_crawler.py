@@ -72,8 +72,8 @@ df.index=df['IMPAQ_ID']
 record_df = pd.DataFrame()
 # record_df.columns =['IMPAQ_ID','Filing Number', 'Entity Name', 'Operation Status'
 #     , 'Agent Name','Agent Address', 'Store Address']
-for i,row in df.iloc[:6,:].iterrows():
+for i,row in df.loc[2547:,:].iterrows():
     print(i)
     record_df = record_df.append(MN_scrape(row['DBA Name_update'],row['IMPAQ_ID']),
         ignore_index=True,sort=False)
-record_df.to_csv(path +'/step_4_work/MN/candidate_records.csv',index=False)
+record_df.to_csv(path +'/step_4_work/MN/candidate_records_pt5.csv',index=False)
