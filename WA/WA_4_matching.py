@@ -11,7 +11,6 @@ import re
 import os
 import numpy as np
 from datetime import datetime
-import functions.matching_functions as mf
 # import master functions
 import os, sys
 from os.path import dirname, join, abspath
@@ -21,13 +20,8 @@ import functions.matching_functions as mf
 pd.options.mode.chained_assignment = 'raise'
 
 start=datetime.now()
-
-WA_rawdir='R:/FDA/2732 - FDA Tribal Tobacco Retailers/Technical/Task 2 - ' + \
-            'Retailers List/Business Data/raw_data/WA'
-WA_processdir='R:/FDA/2732 - FDA Tribal Tobacco Retailers/Technical/Task 2 - ' + \
-            'Retailers List/Business Data/processed_data/WA'
 FDA_dir='C:/Users/lpatterson/AnacondaProjects/Tribal_Master'
-
+WA_processdir='C:/Users/lpatterson/AnacondaProjects/Tribal_Master/input/state bulk sos data/WA'
 fda_df = pd.read_csv(FDA_dir + '/step_3_work/output/full_retailer_list.csv')
 fda_df = fda_df.loc[fda_df['State']=='WA',:]
 # pick the biz short zip for now
@@ -58,7 +52,7 @@ for i in range(len(fda_df)):
         left_index=True, right_index=True, on='id')
     out = sos_df.merge(out, left_index=True, right_index=True, on='id')
     match = mf.match_selection(out, 'basic addr')
-    match2= mf.matc h_selection(out, 'basic name',name_lvl=.99)
+    match2= mf.match_selection(out, 'basic name',name_lvl=.99)
     matches.append([fda_row, match])
     matches2.append([fda_row, match2])
     if match.empty == False:

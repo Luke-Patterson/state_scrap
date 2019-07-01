@@ -1,5 +1,5 @@
 -------------Summary----------------
-FDA retailers inputted: 119
+FDA retailers inputted: 217
 At least one match found for 15 FDA retailers
 Number of matches for each FDA retailer
 NY688226 3
@@ -62,7 +62,7 @@ State_update                                                      NY
 Zip_update                                                     13655
 County                                                           NaN
 County_update                                               FRANKLIN
-Name: 3, dtype: object
+Name: 4, dtype: object
 -------------SOS candidate 2----------------
 DOS ID                                                     321979
 bizname                           AKWESASNE CULTURAL CENTER, INC.
@@ -235,7 +235,7 @@ agent_address                                                      NaN
 agent_city                                                         NaN
 agent_state                                                        NaN
 agent_zip                                                          NaN
-Name: 9, dtype: object
+Name: 27, dtype: object
 -------------SOS candidate 590----------------
 DOS ID                                              4414326
 bizname                           MONTAUK NATIVE GAS II INC
@@ -328,7 +328,7 @@ agent_address                                                      NaN
 agent_city                                                         NaN
 agent_state                                                        NaN
 agent_zip                                                          NaN
-Name: 10, dtype: object
+Name: 31, dtype: object
 -------------SOS candidate 2618----------------
 DOS ID                                              3994659
 bizname                            NATIVE SONS TOBACCO INC.
@@ -421,7 +421,7 @@ agent_address                                               NaN
 agent_city                                                  NaN
 agent_state                                                 NaN
 agent_zip                                                   NaN
-Name: 21, dtype: object
+Name: 60, dtype: object
 -------------SOS candidate 2----------------
 DOS ID                                                     321979
 bizname                           AKWESASNE CULTURAL CENTER, INC.
@@ -594,7 +594,7 @@ agent_address                                               NaN
 agent_city                                                  NaN
 agent_state                                                 NaN
 agent_zip                                                   NaN
-Name: 29, dtype: object
+Name: 71, dtype: object
 -------------SOS candidate 2----------------
 DOS ID                                                     321979
 bizname                           AKWESASNE CULTURAL CENTER, INC.
@@ -767,7 +767,7 @@ agent_address                                              NaN
 agent_city                                                 NaN
 agent_state                                                NaN
 agent_zip                                                  NaN
-Name: 33, dtype: object
+Name: 85, dtype: object
 -------------SOS candidate 156----------------
 DOS ID                                              3149980
 bizname                                   POST SMOKES, INC.
@@ -860,7 +860,7 @@ agent_address                                                  NaN
 agent_city                                                     NaN
 agent_state                                                    NaN
 agent_zip                                                      NaN
-Name: 42, dtype: object
+Name: 99, dtype: object
 -------------SOS candidate 197----------------
 DOS ID                                                    1413849
 bizname                        GREATER ONEIDA LITTLE LEAGUE, INC.
@@ -1513,7 +1513,7 @@ agent_address                                           NaN
 agent_city                                              NaN
 agent_state                                             NaN
 agent_zip                                               NaN
-Name: 47, dtype: object
+Name: 110, dtype: object
 -------------SOS candidate 55----------------
 DOS ID                                                  5408706
 bizname                       ONONDAGA CONSTRUCTION CORPORATION
@@ -1686,7 +1686,7 @@ agent_address                                                  NaN
 agent_city                                                     NaN
 agent_state                                                    NaN
 agent_zip                                                      NaN
-Name: 52, dtype: object
+Name: 135, dtype: object
 -------------SOS candidate 59----------------
 DOS ID                                                   5206211
 bizname                                27TH & NIAGARA STREET LLC
@@ -1859,7 +1859,7 @@ agent_address                                                 NaN
 agent_city                                                    NaN
 agent_state                                                   NaN
 agent_zip                                                     NaN
-Name: 56, dtype: object
+Name: 148, dtype: object
 -------------SOS candidate 37----------------
 DOS ID                                              4448462
 bizname                                 SPEEDWAY PLAZA INC.
@@ -1952,7 +1952,7 @@ agent_address                                                     NaN
 agent_city                                                        NaN
 agent_state                                                       NaN
 agent_zip                                                         NaN
-Name: 57, dtype: object
+Name: 149, dtype: object
 -------------SOS candidate 57----------------
 DOS ID                                                   4882598
 bizname                           CAYUGA LAKE TRADING STORE, LLC
@@ -2045,7 +2045,7 @@ agent_address                                            NaN
 agent_city                                               NaN
 agent_state                                              NaN
 agent_zip                                                NaN
-Name: 80, dtype: object
+Name: 178, dtype: object
 -------------SOS candidate 2----------------
 DOS ID                                                     321979
 bizname                           AKWESASNE CULTURAL CENTER, INC.
@@ -2218,7 +2218,7 @@ agent_address                                                   NaN
 agent_city                                                      NaN
 agent_state                                                     NaN
 agent_zip                                                       NaN
-Name: 98, dtype: object
+Name: 196, dtype: object
 -------------SOS candidate 2----------------
 DOS ID                                                     321979
 bizname                           AKWESASNE CULTURAL CENTER, INC.
@@ -2391,7 +2391,7 @@ agent_address                                              NaN
 agent_city                                                 NaN
 agent_state                                                NaN
 agent_zip                                                  NaN
-Name: 100, dtype: object
+Name: 198, dtype: object
 -------------SOS candidate 15----------------
 DOS ID                                                   4181617
 bizname                                      M & M JUNCTION, LLC
@@ -2484,7 +2484,7 @@ agent_address                                               NaN
 agent_city                                                  NaN
 agent_state                                                 NaN
 agent_zip                                                   NaN
-Name: 111, dtype: object
+Name: 209, dtype: object
 -------------SOS candidate 8----------------
 DOS ID                                                   3348572
 bizname                                         53 WILDWOOD, LLC

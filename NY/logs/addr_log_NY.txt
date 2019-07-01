@@ -1,5 +1,5 @@
 -------------Summary----------------
-FDA retailers inputted: 119
+FDA retailers inputted: 217
 At least one match found for 3 FDA retailers
 Number of matches for each FDA retailer
 NY746259 1
@@ -57,7 +57,7 @@ agent_address                                              NaN
 agent_city                                                 NaN
 agent_state                                                NaN
 agent_zip                                                  NaN
-Name: 33, dtype: object
+Name: 85, dtype: object
 -------------SOS candidate 156----------------
 DOS ID                                              3149980
 bizname                                   POST SMOKES, INC.
@@ -150,7 +150,7 @@ agent_address                                                  NaN
 agent_city                                                     NaN
 agent_state                                                    NaN
 agent_zip                                                      NaN
-Name: 52, dtype: object
+Name: 135, dtype: object
 -------------SOS candidate 2059----------------
 DOS ID                                                                  2708874
 bizname                                        NIAGARA FALLS ICE FESTIVAL, INC.
@@ -243,7 +243,7 @@ agent_address                                              NaN
 agent_city                                                 NaN
 agent_state                                                NaN
 agent_zip                                                  NaN
-Name: 112, dtype: object
+Name: 210, dtype: object
 -------------SOS candidate 127----------------
 DOS ID                                              1753595
 bizname                                           MSG, INC.
