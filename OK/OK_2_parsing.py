@@ -12,7 +12,7 @@ sos_df=pd.read_excel('C:/Users/lpatterson/AnacondaProjects/Tribal_Master/step_4_
     'OK/OK_results.xlsx')
 FDA_dir='C:/Users/lpatterson/AnacondaProjects/Tribal_Master'
 fda_df = pd.read_csv(FDA_dir + '/step_3_work/output/full_retailer_list.csv')
-fda_df = fda_df.loc[fda_df['State_update']=='OK',:]
+fda_df = fda_df.loc[fda_df['State']=='OK',:]
 
 # run for all stores
 for i,fda_row in fda_df.iterrows():
@@ -20,7 +20,7 @@ for i,fda_row in fda_df.iterrows():
     if temp_sos.empty == False:
         out = mf.name_match_scoring(fda_row, temp_sos, fda_colname='DBA Name_update',
             sos_colname = 'Name', id_var='IMPAQ_ID')
-        if out.name_score.max() > .9:
+        if out.name_score.max() > .99:
             match = temp_sos.loc[out.name_score.idxmax(),:]
             fda_df.loc[i,'SoS_record'] = match['Filing Number'].astype('str')
             fda_df.loc[i,'entity'] = match['Name']

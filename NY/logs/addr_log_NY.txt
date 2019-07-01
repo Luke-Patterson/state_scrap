@@ -1,0 +1,286 @@
+-------------Summary----------------
+FDA retailers inputted: 119
+At least one match found for 3 FDA retailers
+Number of matches for each FDA retailer
+NY746259 1
+NY748334 1
+nan 1
+-------------FDA Store----------------
+Unnamed: 0                                                1143
+IMPAQ_ID                                                  1143
+REI                                                   NY746259
+DBA Name                                          POST SMOKES 
+Address Line 1                                   560 BROAD ST.
+Address Line 2                                             NaN
+City                                                 SALAMANCA
+State                                                       NY
+Zip                                                      14779
+Latitude                                               42.1583
+Longitude                                              -78.736
+Full Address                560 BROAD ST.  SALAMANCA, NY 14779
+matchsource                                           Original
+est_id                                                    1143
+found_pic                                                  NaN
+Manual Result                                              NaN
+name_update                                            Correct
+addr_update               58 Main St, Salamanca, NY 14779, USA
+lat_update                                           42.157464
+lon_update                                         -78.7149799
+biz_status                                              Closed
+DBA Name_update                                   POST SMOKES 
+Full Address_update       58 Main St, Salamanca, NY 14779, USA
+Latitude_update                             42.157464000000004
+Longitude_update                            -78.71497990000002
+Coordinates               POINT (-78.71497990000002 42.157464)
+On Tribe Land                                              Yes
+Miles to Nearest Tribe                                     0.0
+Assoc Tribe                                           Allegany
+Assoc Res                                 Allegany Reservation
+Nearest Tribe                                              NaN
+Nearest Res                                                NaN
+ori_flg                                     From Original List
+Owner Name                                                 NaN
+Owner City                                                 NaN
+Owner State                                                NaN
+Non-Corporate Owned                                        NaN
+Niel_id                                                    NaN
+Address Line 1_update                               58 MAIN ST
+City_update                                          SALAMANCA
+State_update                                                NY
+Zip_update                                               14779
+County                                                     NaN
+County_update                                      CATTARAUGUS
+SoS_record                                                 NaN
+entity                                                     NaN
+agent_name                                                 NaN
+agent_address                                              NaN
+agent_city                                                 NaN
+agent_state                                                NaN
+agent_zip                                                  NaN
+Name: 33, dtype: object
+-------------SOS candidate 156----------------
+DOS ID                                              3149980
+bizname                                   POST SMOKES, INC.
+Initial DOS Filing Date                          01/13/2005
+County                                          CATTARAUGUS
+Jurisdiction                                       NEW YORK
+Entity Type                   DOMESTIC BUSINESS CORPORATION
+DOS Process Name                          POST SMOKES, INC.
+maddress1                                       DANIEL POST
+maddress2                                    58 MAIN STREET
+mcity                                             SALAMANCA
+mstate                                             NEW YORK
+mzip                                                  14779
+CEO Name                                                NaN
+CEO Address 1                                           NaN
+CEO Address 2                                           NaN
+CEO City                                                NaN
+CEO State                                               NaN
+CEO Zip                                                 NaN
+Registered Agent Name                                   NaN
+Registered Agent Address 1                              NaN
+Registered Agent Address 2                              NaN
+Registered Agent City                                   NaN
+Registered Agent State                                  NaN
+Registered Agent Zip                                    NaN
+Location Name                                           NaN
+paddress1                                       DANIEL POST
+paddress2                                    58 MAIN STREET
+pcity                                             SALAMANCA
+pstate                                             NEW YORK
+pzip                                                  14779
+id                                                  1955935
+name_score                                                1
+common_flag                                               1
+StreetName_score                                          1
+StreetNamePostType_score                                  1
+AddressNumber_score                                       1
+ZipCode_score                                             1
+match                                                     1
+Name: 156, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                    1193
+IMPAQ_ID                                                      1193
+REI                                                       NY748334
+DBA Name                            SENECA NIAGARA RESORT & CASINO
+Address Line 1                                      310 FOURTH ST.
+Address Line 2                                                 NaN
+City                                                 NIAGARA FALLS
+State                                                           NY
+Zip                                                          14303
+Latitude                                                   43.0863
+Longitude                                                 -79.0578
+Full Address               310 FOURTH ST.  NIAGARA FALLS, NY 14303
+matchsource                                               Original
+est_id                                                        1193
+found_pic                                                      NaN
+Manual Result                                                  NaN
+name_update                                                Correct
+addr_update               310 4th St, Niagara Falls, NY 14303, USA
+lat_update                                              43.0862416
+lon_update                                             -79.0576795
+biz_status                                                  Active
+DBA Name_update                     SENECA NIAGARA RESORT & CASINO
+Full Address_update       310 4th St, Niagara Falls, NY 14303, USA
+Latitude_update                                         43.0862416
+Longitude_update                                       -79.0576795
+Coordinates                  POINT (-79.05767949999998 43.0862416)
+On Tribe Land                                                   No
+Miles to Nearest Tribe                                 6.348923721
+Assoc Tribe                                                    NaN
+Assoc Res                                                      NaN
+Nearest Tribe                                     Tuscarora Nation
+Nearest Res                           Tuscarora Nation Reservation
+ori_flg                                         From Original List
+Owner Name                                                     NaN
+Owner City                                                     NaN
+Owner State                                                    NaN
+Non-Corporate Owned                                            NaN
+Niel_id                                                        NaN
+Address Line 1_update                                   310 4TH ST
+City_update                                          NIAGARA FALLS
+State_update                                                    NY
+Zip_update                                                   14303
+County                                                         NaN
+County_update                                              NIAGARA
+SoS_record                                                     NaN
+entity                                                         NaN
+agent_name                                                     NaN
+agent_address                                                  NaN
+agent_city                                                     NaN
+agent_state                                                    NaN
+agent_zip                                                      NaN
+Name: 52, dtype: object
+-------------SOS candidate 2059----------------
+DOS ID                                                                  2708874
+bizname                                        NIAGARA FALLS ICE FESTIVAL, INC.
+Initial DOS Filing Date                                              12/14/2001
+County                                                                  NIAGARA
+Jurisdiction                                                           NEW YORK
+Entity Type                                 DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name              NIAGARA FALLS ICE FESTIVAL, INC. C/O NIAGARA F...
+maddress1                                                  AND VISITOR'S BUREAU
+maddress2                                                        310 4TH STREET
+mcity                                                             NIAGARA FALLS
+mstate                                                                 NEW YORK
+mzip                                                                      14303
+CEO Name                                                                    NaN
+CEO Address 1                                                               NaN
+CEO Address 2                                                               NaN
+CEO City                                                                    NaN
+CEO State                                                                   NaN
+CEO Zip                                                                     NaN
+Registered Agent Name                                                       NaN
+Registered Agent Address 1                                                  NaN
+Registered Agent Address 2                                                  NaN
+Registered Agent City                                                       NaN
+Registered Agent State                                                      NaN
+Registered Agent Zip                                                        NaN
+Location Name                                                               NaN
+paddress1                                                  AND VISITOR'S BUREAU
+paddress2                                                        310 4TH STREET
+pcity                                                             NIAGARA FALLS
+pstate                                                                 NEW YORK
+pzip                                                                      14303
+id                                                                      1781286
+name_score                                                             0.840412
+common_flag                                                                   0
+StreetName_score                                                              1
+StreetNamePostType_score                                                      1
+AddressNumber_score                                                           1
+ZipCode_score                                                                 1
+match                                                                         1
+Name: 2059, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                3140
+IMPAQ_ID                                                  3140
+REI                                                        NaN
+DBA Name                                                   NaN
+Address Line 1                                  200 CLINTON ST
+Address Line 2                                             NaN
+City                                                 SALAMANCA
+State                                                       NY
+Zip                                                      14779
+Latitude                                                   NaN
+Longitude                                                  NaN
+Full Address                                               NaN
+matchsource                                                NaN
+est_id                                                     NaN
+found_pic                                                  NaN
+Manual Result                                              NaN
+name_update                                                NaN
+addr_update                                                NaN
+lat_update                                                 NaN
+lon_update                                                 NaN
+biz_status                                              Active
+DBA Name_update                                    THE CLINTON
+Full Address_update       200 Clinton St, Salamanca, NY, 14779
+Latitude_update                                      42.153706
+Longitude_update                                   -78.7092005
+Coordinates               POINT (-78.70920049999999 42.153706)
+On Tribe Land                                              Yes
+Miles to Nearest Tribe                                     NaN
+Assoc Tribe                                           Allegany
+Assoc Res                                 Allegany Reservation
+Nearest Tribe                                              NaN
+Nearest Res                                                NaN
+ori_flg                                           New Retailer
+Owner Name                                         Independent
+Owner City                                                 NaN
+Owner State                                                NaN
+Non-Corporate Owned                                          N
+Niel_id                                            5.09889e+06
+Address Line 1_update                           200 CLINTON ST
+City_update                                          SALAMANCA
+State_update                                                NY
+Zip_update                                               14779
+County                                                     NaN
+County_update                                      CATTARAUGUS
+SoS_record                                                 NaN
+entity                                                     NaN
+agent_name                                                 NaN
+agent_address                                              NaN
+agent_city                                                 NaN
+agent_state                                                NaN
+agent_zip                                                  NaN
+Name: 112, dtype: object
+-------------SOS candidate 127----------------
+DOS ID                                              1753595
+bizname                                           MSG, INC.
+Initial DOS Filing Date                          09/01/1993
+County                                          CATTARAUGUS
+Jurisdiction                                       NEW YORK
+Entity Type                   DOMESTIC BUSINESS CORPORATION
+DOS Process Name                                  MSG, INC.
+maddress1                                   C/O THE CLINTON
+maddress2                                    200 CLINTON ST
+mcity                                             SALAMANCA
+mstate                                             NEW YORK
+mzip                                                  14779
+CEO Name                                  SEAN M. CALLAGHAN
+CEO Address 1                               200 CLINTON ST.
+CEO Address 2                                           NaN
+CEO City                                          SALAMANCA
+CEO State                                          NEW YORK
+CEO Zip                                               14779
+Registered Agent Name                                   NaN
+Registered Agent Address 1                              NaN
+Registered Agent Address 2                              NaN
+Registered Agent City                                   NaN
+Registered Agent State                                  NaN
+Registered Agent Zip                                    NaN
+Location Name                                     MSG, INC.
+paddress1                                   C/O THE CLINTON
+paddress2                                    200 CLINTON ST
+pcity                                             SALAMANCA
+pstate                                             NEW YORK
+pzip                                                  14779
+id                                                  1711288
+name_score                                                0
+common_flag                                               1
+StreetName_score                                          1
+StreetNamePostType_score                                  1
+AddressNumber_score                                       1
+ZipCode_score                                             1
+match                                                     1
+Name: 127, dtype: object

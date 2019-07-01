@@ -1,0 +1,2567 @@
+-------------Summary----------------
+FDA retailers inputted: 119
+At least one match found for 15 FDA retailers
+Number of matches for each FDA retailer
+NY688226 3
+NY698387 1
+NY698698 1
+NY746209 3
+NY746220 3
+NY746259 1
+NY746642 15
+NY746665 3
+NY748334 3
+NY749766 1
+NY749776 1
+nan 3
+nan 3
+nan 1
+nan 2
+-------------FDA Store----------------
+Unnamed: 0                                                      1062
+IMPAQ_ID                                                        1062
+REI                                                         NY688226
+DBA Name                                         AKWESASNE MINI MART
+Address Line 1                                  155 STATE HIGHWAY 37
+Address Line 2                                                   NaN
+City                                                      HOGANSBURG
+State                                                             NY
+Zip                                                            13655
+Latitude                                                     44.9779
+Longitude                                                   -74.7085
+Full Address              155 STATE HIGHWAY 37  HOGANSBURG, NY 13655
+matchsource                                                 Original
+est_id                                                          1062
+found_pic                                                        NaN
+Manual Result                                                    NaN
+name_update                                                  Correct
+addr_update                     397 NY-37, Hogansburg, NY 13655, USA
+lat_update                                                44.9782629
+lon_update                                               -74.7095985
+biz_status                                                    Active
+DBA Name_update                                  AKWESASNE MINI MART
+Full Address_update             397 NY-37, Hogansburg, NY 13655, USA
+Latitude_update                                           44.9782629
+Longitude_update                                         -74.7095985
+Coordinates                           POINT (-74.7095985 44.9782629)
+On Tribe Land                                                    Yes
+Miles to Nearest Tribe                                           0.0
+Assoc Tribe                                         St. Regis Mohawk
+Assoc Res                               St. Regis Mohawk Reservation
+Nearest Tribe                                                    NaN
+Nearest Res                                                      NaN
+ori_flg                                           From Original List
+Owner Name                                                       NaN
+Owner City                                                       NaN
+Owner State                                                      NaN
+Non-Corporate Owned                                              NaN
+Niel_id                                                          NaN
+Address Line 1_update                                        397 -37
+City_update                                               HOGANSBURG
+State_update                                                      NY
+Zip_update                                                     13655
+County                                                           NaN
+County_update                                               FRANKLIN
+Name: 3, dtype: object
+-------------SOS candidate 2----------------
+DOS ID                                                     321979
+bizname                           AKWESASNE CULTURAL CENTER, INC.
+Initial DOS Filing Date                                01/19/1972
+County                                                   FRANKLIN
+Jurisdiction                                             NEW YORK
+Entity Type                   DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name                  AKWESASNE CULTURAL CENTER, INC.
+maddress1                                      321 STATE ROUTE 37
+maddress2                                                     NaN
+mcity                                                  HOGANSBURG
+mstate                                                   NEW YORK
+mzip                                                        13655
+CEO Name                                                      NaN
+CEO Address 1                                                 NaN
+CEO Address 2                                                 NaN
+CEO City                                                      NaN
+CEO State                                                     NaN
+CEO Zip                                                       NaN
+Registered Agent Name                                         NaN
+Registered Agent Address 1                                    NaN
+Registered Agent Address 2                                    NaN
+Registered Agent City                                         NaN
+Registered Agent State                                        NaN
+Registered Agent Zip                                          NaN
+Location Name                                                 NaN
+paddress1                                      321 STATE ROUTE 37
+paddress2                                                     NaN
+pcity                                                  HOGANSBURG
+pstate                                                   NEW YORK
+pzip                                                        13655
+id                                                         265974
+name_score                                                0.99887
+common_flag                                                     0
+StreetName_score                                              NaN
+StreetNamePostType_score                                      NaN
+AddressNumber_score                                           NaN
+ZipCode_score                                                 NaN
+match                                                           1
+Name: 2, dtype: object
+-------------SOS candidate 3----------------
+DOS ID                                                   5536331
+bizname                              AKWESASNE HOUSING AUTHORITY
+Initial DOS Filing Date                               04/18/2019
+County                                                  FRANKLIN
+Jurisdiction                                          ALL OTHERS
+Entity Type                   FOREIGN NOT-FOR-PROFIT CORPORATION
+DOS Process Name                     AKWESASNE HOUSING AUTHORITY
+maddress1                               ATTN: EXECUTIVE DIRECTOR
+maddress2                              378 STATE ROUTE 37, STE A
+mcity                                                 HOGANSBURG
+mstate                                                  NEW YORK
+mzip                                                       13655
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                               ATTN: EXECUTIVE DIRECTOR
+paddress2                              378 STATE ROUTE 37, STE A
+pcity                                                 HOGANSBURG
+pstate                                                  NEW YORK
+pzip                                                       13655
+id                                                        265977
+name_score                                              0.998409
+common_flag                                                    0
+StreetName_score                                               1
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                            0
+ZipCode_score                                                  1
+match                                                          1
+Name: 3, dtype: object
+-------------SOS candidate 4----------------
+DOS ID                                                   4105766
+bizname                        AKWESASNE TOBACCO PROCESSING, LLC
+Initial DOS Filing Date                               06/13/2011
+County                                                  FRANKLIN
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name               AKWESASNE TOBACCO PROCESSING, LLC
+maddress1                                      344 FROGTOWN ROAD
+maddress2                                                    NaN
+mcity                                                 HOGANSBURG
+mstate                                                  NEW YORK
+mzip                                                       13655
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                      344 FROGTOWN ROAD
+paddress2                                                    NaN
+pcity                                                 HOGANSBURG
+pstate                                                  NEW YORK
+pzip                                                       13655
+id                                                        265981
+name_score                                              0.995428
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 4, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                        1085
+IMPAQ_ID                                                          1085
+REI                                                           NY698387
+DBA Name                                   MONTAUK NATIVE GASOLINE STA
+Address Line 1                                       182 POOSPATUCK LN
+Address Line 2                                                     NaN
+City                                                            MASTIC
+State                                                               NY
+Zip                                                              11950
+Latitude                                                       40.7893
+Longitude                                                     -72.8318
+Full Address                       182 POOSPATUCK LN  MASTIC, NY 11950
+matchsource                                                   Original
+est_id                                                            1085
+found_pic                                                          NaN
+Manual Result                                                      NaN
+name_update                                                    Correct
+addr_update                 182C, Poospatuck Ln, Mastic, NY 11950, USA
+lat_update                                                  40.7892892
+lon_update                                                 -72.8313806
+biz_status                                                      Active
+DBA Name_update                            MONTAUK NATIVE GASOLINE STA
+Full Address_update         182C, Poospatuck Ln, Mastic, NY 11950, USA
+Latitude_update                                     40.789289200000006
+Longitude_update                                           -72.8313806
+Coordinates               POINT (-72.83138060000002 40.78928920000001)
+On Tribe Land                                                       No
+Miles to Nearest Tribe                                     64.66129723
+Assoc Tribe                                                        NaN
+Assoc Res                                                          NaN
+Nearest Tribe                                                  Mohegan
+Nearest Res                         Mohegan Off-Reservation Trust Land
+ori_flg                                             From Original List
+Owner Name                                                         NaN
+Owner City                                                         NaN
+Owner State                                                        NaN
+Non-Corporate Owned                                                NaN
+Niel_id                                                            NaN
+Address Line 1_update                               182C POOSPATUCK LN
+City_update                                                     MASTIC
+State_update                                                        NY
+Zip_update                                                       11950
+County                                                             NaN
+County_update                                                  SUFFOLK
+SoS_record                                                         NaN
+entity                                                             NaN
+agent_name                                                         NaN
+agent_address                                                      NaN
+agent_city                                                         NaN
+agent_state                                                        NaN
+agent_zip                                                          NaN
+Name: 9, dtype: object
+-------------SOS candidate 590----------------
+DOS ID                                              4414326
+bizname                           MONTAUK NATIVE GAS II INC
+Initial DOS Filing Date                          06/06/2013
+County                                              SUFFOLK
+Jurisdiction                                       NEW YORK
+Entity Type                   DOMESTIC BUSINESS CORPORATION
+DOS Process Name                  MONTAUK NATIVE GAS II INC
+maddress1                              182D POOSPATUCK LANE
+maddress2                                               NaN
+mcity                                                MASTIC
+mstate                                             NEW YORK
+mzip                                                  11950
+CEO Name                                                NaN
+CEO Address 1                                           NaN
+CEO Address 2                                           NaN
+CEO City                                                NaN
+CEO State                                               NaN
+CEO Zip                                                 NaN
+Registered Agent Name                                   NaN
+Registered Agent Address 1                              NaN
+Registered Agent Address 2                              NaN
+Registered Agent City                                   NaN
+Registered Agent State                                  NaN
+Registered Agent Zip                                    NaN
+Location Name                                           NaN
+paddress1                              182D POOSPATUCK LANE
+paddress2                                               NaN
+pcity                                                MASTIC
+pstate                                             NEW YORK
+pzip                                                  11950
+id                                                  1691536
+name_score                                         0.994688
+common_flag                                               0
+StreetName_score                                        NaN
+StreetNamePostType_score                                NaN
+AddressNumber_score                                     NaN
+ZipCode_score                                           NaN
+match                                                     1
+Name: 590, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                        1089
+IMPAQ_ID                                                          1089
+REI                                                           NY698698
+DBA Name                                           NATIVE SONS TOBACCO
+Address Line 1                                     50A MONTAUK HIGHWAY
+Address Line 2                                                     NaN
+City                                                       SOUTHAMPTON
+State                                                               NY
+Zip                                                              11968
+Latitude                                                       40.8849
+Longitude                                                     -72.4285
+Full Address                50A MONTAUK HIGHWAY  SOUTHAMPTON, NY 11968
+matchsource                                                   Original
+est_id                                                            1089
+found_pic                                                          NaN
+Manual Result                                                      NaN
+name_update                                                    Correct
+addr_update               50 Montauk Hwy A, Southampton, NY 11968, USA
+lat_update                                                  40.8849528
+lon_update                                                 -72.4302982
+biz_status                                                      Active
+DBA Name_update                                    NATIVE SONS TOBACCO
+Full Address_update       50 Montauk Hwy A, Southampton, NY 11968, USA
+Latitude_update                                             40.8849528
+Longitude_update                                    -72.43029820000001
+Coordinates                      POINT (-72.43029820000002 40.8849528)
+On Tribe Land                                                       No
+Miles to Nearest Tribe                                     43.48892811
+Assoc Tribe                                                        NaN
+Assoc Res                                                          NaN
+Nearest Tribe                                                  Mohegan
+Nearest Res                         Mohegan Off-Reservation Trust Land
+ori_flg                                             From Original List
+Owner Name                                                         NaN
+Owner City                                                         NaN
+Owner State                                                        NaN
+Non-Corporate Owned                                                NaN
+Niel_id                                                            NaN
+Address Line 1_update                                 50 MONTAUK HWY A
+City_update                                                SOUTHAMPTON
+State_update                                                        NY
+Zip_update                                                       11968
+County                                                             NaN
+County_update                                                  SUFFOLK
+SoS_record                                                         NaN
+entity                                                             NaN
+agent_name                                                         NaN
+agent_address                                                      NaN
+agent_city                                                         NaN
+agent_state                                                        NaN
+agent_zip                                                          NaN
+Name: 10, dtype: object
+-------------SOS candidate 2618----------------
+DOS ID                                              3994659
+bizname                            NATIVE SONS TOBACCO INC.
+Initial DOS Filing Date                          09/13/2010
+County                                              SUFFOLK
+Jurisdiction                                       NEW YORK
+Entity Type                   DOMESTIC BUSINESS CORPORATION
+DOS Process Name                   NATIVE SONS TOBACCO INC.
+maddress1                               POST OFFICE BOX 975
+maddress2                                               NaN
+mcity                                           SOUTHAMPTON
+mstate                                             NEW YORK
+mzip                                                  11969
+CEO Name                                                NaN
+CEO Address 1                                           NaN
+CEO Address 2                                           NaN
+CEO City                                                NaN
+CEO State                                               NaN
+CEO Zip                                                 NaN
+Registered Agent Name                                   NaN
+Registered Agent Address 1                              NaN
+Registered Agent Address 2                              NaN
+Registered Agent City                                   NaN
+Registered Agent State                                  NaN
+Registered Agent Zip                                    NaN
+Location Name                                           NaN
+paddress1                               POST OFFICE BOX 975
+paddress2                                               NaN
+pcity                                           SOUTHAMPTON
+pstate                                             NEW YORK
+pzip                                                  11969
+id                                                  1741490
+name_score                                                1
+common_flag                                               1
+StreetName_score                                        NaN
+StreetNamePostType_score                                NaN
+AddressNumber_score                                     NaN
+ZipCode_score                                           NaN
+match                                                     1
+Name: 2618, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                 1118
+IMPAQ_ID                                                   1118
+REI                                                    NY746209
+DBA Name                     AKWESASNE MOHAWK CASINO AND RESORT
+Address Line 1                                        873 NY 37
+Address Line 2                                              NaN
+City                                                 HOGANSBURG
+State                                                        NY
+Zip                                                       13655
+Latitude                                                44.9675
+Longitude                                              -74.6455
+Full Address                    873 NY 37  HOGANSBURG, NY 13655
+matchsource                                            Original
+est_id                                                     1118
+found_pic                                                   NaN
+Manual Result                                               NaN
+name_update                                             Correct
+addr_update                873 NY-37, Hogansburg, NY 13655, USA
+lat_update                                           44.9707983
+lon_update                                          -74.6417511
+biz_status                                               Active
+DBA Name_update              AKWESASNE MOHAWK CASINO AND RESORT
+Full Address_update        873 NY-37, Hogansburg, NY 13655, USA
+Latitude_update                                      44.9707983
+Longitude_update                                    -74.6417511
+Coordinates               POINT (-74.64175109999999 44.9707983)
+On Tribe Land                                               Yes
+Miles to Nearest Tribe                                      0.0
+Assoc Tribe                                    St. Regis Mohawk
+Assoc Res                          St. Regis Mohawk Reservation
+Nearest Tribe                                               NaN
+Nearest Res                                                 NaN
+ori_flg                                      From Original List
+Owner Name                                                  NaN
+Owner City                                                  NaN
+Owner State                                                 NaN
+Non-Corporate Owned                                         NaN
+Niel_id                                                     NaN
+Address Line 1_update                                   873 -37
+City_update                                          HOGANSBURG
+State_update                                                 NY
+Zip_update                                                13655
+County                                                      NaN
+County_update                                          FRANKLIN
+SoS_record                                                  NaN
+entity                                                      NaN
+agent_name                                                  NaN
+agent_address                                               NaN
+agent_city                                                  NaN
+agent_state                                                 NaN
+agent_zip                                                   NaN
+Name: 21, dtype: object
+-------------SOS candidate 2----------------
+DOS ID                                                     321979
+bizname                           AKWESASNE CULTURAL CENTER, INC.
+Initial DOS Filing Date                                01/19/1972
+County                                                   FRANKLIN
+Jurisdiction                                             NEW YORK
+Entity Type                   DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name                  AKWESASNE CULTURAL CENTER, INC.
+maddress1                                      321 STATE ROUTE 37
+maddress2                                                     NaN
+mcity                                                  HOGANSBURG
+mstate                                                   NEW YORK
+mzip                                                        13655
+CEO Name                                                      NaN
+CEO Address 1                                                 NaN
+CEO Address 2                                                 NaN
+CEO City                                                      NaN
+CEO State                                                     NaN
+CEO Zip                                                       NaN
+Registered Agent Name                                         NaN
+Registered Agent Address 1                                    NaN
+Registered Agent Address 2                                    NaN
+Registered Agent City                                         NaN
+Registered Agent State                                        NaN
+Registered Agent Zip                                          NaN
+Location Name                                                 NaN
+paddress1                                      321 STATE ROUTE 37
+paddress2                                                     NaN
+pcity                                                  HOGANSBURG
+pstate                                                   NEW YORK
+pzip                                                        13655
+id                                                         265974
+name_score                                                0.99887
+common_flag                                                     0
+StreetName_score                                              NaN
+StreetNamePostType_score                                      NaN
+AddressNumber_score                                           NaN
+ZipCode_score                                                 NaN
+match                                                           1
+Name: 2, dtype: object
+-------------SOS candidate 3----------------
+DOS ID                                                   5536331
+bizname                              AKWESASNE HOUSING AUTHORITY
+Initial DOS Filing Date                               04/18/2019
+County                                                  FRANKLIN
+Jurisdiction                                          ALL OTHERS
+Entity Type                   FOREIGN NOT-FOR-PROFIT CORPORATION
+DOS Process Name                     AKWESASNE HOUSING AUTHORITY
+maddress1                               ATTN: EXECUTIVE DIRECTOR
+maddress2                              378 STATE ROUTE 37, STE A
+mcity                                                 HOGANSBURG
+mstate                                                  NEW YORK
+mzip                                                       13655
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                               ATTN: EXECUTIVE DIRECTOR
+paddress2                              378 STATE ROUTE 37, STE A
+pcity                                                 HOGANSBURG
+pstate                                                  NEW YORK
+pzip                                                       13655
+id                                                        265977
+name_score                                              0.998409
+common_flag                                                    0
+StreetName_score                                               1
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                            0
+ZipCode_score                                                  1
+match                                                          1
+Name: 3, dtype: object
+-------------SOS candidate 4----------------
+DOS ID                                                   4105766
+bizname                        AKWESASNE TOBACCO PROCESSING, LLC
+Initial DOS Filing Date                               06/13/2011
+County                                                  FRANKLIN
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name               AKWESASNE TOBACCO PROCESSING, LLC
+maddress1                                      344 FROGTOWN ROAD
+maddress2                                                    NaN
+mcity                                                 HOGANSBURG
+mstate                                                  NEW YORK
+mzip                                                       13655
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                      344 FROGTOWN ROAD
+paddress2                                                    NaN
+pcity                                                 HOGANSBURG
+pstate                                                  NEW YORK
+pzip                                                       13655
+id                                                        265981
+name_score                                              0.995428
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 4, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                 1129
+IMPAQ_ID                                                   1129
+REI                                                    NY746220
+DBA Name                                               TWINLEAF
+Address Line 1                                         18 NY 37
+Address Line 2                                              NaN
+City                                                 HOGANSBURG
+State                                                        NY
+Zip                                                       13655
+Latitude                                                44.9796
+Longitude                                              -74.7224
+Full Address                     18 NY 37  HOGANSBURG, NY 13655
+matchsource                                            Original
+est_id                                                     1129
+found_pic                                                     1
+Manual Result                                               yes
+name_update                            TWINLEAF DINER AKWESASNE
+addr_update                 18 NY-37, Hogansburg, NY 13655, USA
+lat_update                                           44.9791394
+lon_update                                          -74.7227028
+biz_status                                               Active
+DBA Name_update                        TWINLEAF DINER AKWESASNE
+Full Address_update         18 NY-37, Hogansburg, NY 13655, USA
+Latitude_update                              44.979139399999994
+Longitude_update                                    -74.7227028
+Coordinates               POINT (-74.72270279999999 44.9791394)
+On Tribe Land                                               Yes
+Miles to Nearest Tribe                                      0.0
+Assoc Tribe                                    St. Regis Mohawk
+Assoc Res                          St. Regis Mohawk Reservation
+Nearest Tribe                                               NaN
+Nearest Res                                                 NaN
+ori_flg                                      From Original List
+Owner Name                                                  NaN
+Owner City                                                  NaN
+Owner State                                                 NaN
+Non-Corporate Owned                                         NaN
+Niel_id                                                     NaN
+Address Line 1_update                                    18 -37
+City_update                                          HOGANSBURG
+State_update                                                 NY
+Zip_update                                                13655
+County                                                      NaN
+County_update                                          FRANKLIN
+SoS_record                                                  NaN
+entity                                                      NaN
+agent_name                                                  NaN
+agent_address                                               NaN
+agent_city                                                  NaN
+agent_state                                                 NaN
+agent_zip                                                   NaN
+Name: 29, dtype: object
+-------------SOS candidate 2----------------
+DOS ID                                                     321979
+bizname                           AKWESASNE CULTURAL CENTER, INC.
+Initial DOS Filing Date                                01/19/1972
+County                                                   FRANKLIN
+Jurisdiction                                             NEW YORK
+Entity Type                   DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name                  AKWESASNE CULTURAL CENTER, INC.
+maddress1                                      321 STATE ROUTE 37
+maddress2                                                     NaN
+mcity                                                  HOGANSBURG
+mstate                                                   NEW YORK
+mzip                                                        13655
+CEO Name                                                      NaN
+CEO Address 1                                                 NaN
+CEO Address 2                                                 NaN
+CEO City                                                      NaN
+CEO State                                                     NaN
+CEO Zip                                                       NaN
+Registered Agent Name                                         NaN
+Registered Agent Address 1                                    NaN
+Registered Agent Address 2                                    NaN
+Registered Agent City                                         NaN
+Registered Agent State                                        NaN
+Registered Agent Zip                                          NaN
+Location Name                                                 NaN
+paddress1                                      321 STATE ROUTE 37
+paddress2                                                     NaN
+pcity                                                  HOGANSBURG
+pstate                                                   NEW YORK
+pzip                                                        13655
+id                                                         265974
+name_score                                                0.99887
+common_flag                                                     0
+StreetName_score                                              NaN
+StreetNamePostType_score                                      NaN
+AddressNumber_score                                           NaN
+ZipCode_score                                                 NaN
+match                                                           1
+Name: 2, dtype: object
+-------------SOS candidate 3----------------
+DOS ID                                                   5536331
+bizname                              AKWESASNE HOUSING AUTHORITY
+Initial DOS Filing Date                               04/18/2019
+County                                                  FRANKLIN
+Jurisdiction                                          ALL OTHERS
+Entity Type                   FOREIGN NOT-FOR-PROFIT CORPORATION
+DOS Process Name                     AKWESASNE HOUSING AUTHORITY
+maddress1                               ATTN: EXECUTIVE DIRECTOR
+maddress2                              378 STATE ROUTE 37, STE A
+mcity                                                 HOGANSBURG
+mstate                                                  NEW YORK
+mzip                                                       13655
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                               ATTN: EXECUTIVE DIRECTOR
+paddress2                              378 STATE ROUTE 37, STE A
+pcity                                                 HOGANSBURG
+pstate                                                  NEW YORK
+pzip                                                       13655
+id                                                        265977
+name_score                                              0.998409
+common_flag                                                    0
+StreetName_score                                               1
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                            0
+ZipCode_score                                                  1
+match                                                          1
+Name: 3, dtype: object
+-------------SOS candidate 4----------------
+DOS ID                                                   4105766
+bizname                        AKWESASNE TOBACCO PROCESSING, LLC
+Initial DOS Filing Date                               06/13/2011
+County                                                  FRANKLIN
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name               AKWESASNE TOBACCO PROCESSING, LLC
+maddress1                                      344 FROGTOWN ROAD
+maddress2                                                    NaN
+mcity                                                 HOGANSBURG
+mstate                                                  NEW YORK
+mzip                                                       13655
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                      344 FROGTOWN ROAD
+paddress2                                                    NaN
+pcity                                                 HOGANSBURG
+pstate                                                  NEW YORK
+pzip                                                       13655
+id                                                        265981
+name_score                                              0.995428
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 4, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                1143
+IMPAQ_ID                                                  1143
+REI                                                   NY746259
+DBA Name                                          POST SMOKES 
+Address Line 1                                   560 BROAD ST.
+Address Line 2                                             NaN
+City                                                 SALAMANCA
+State                                                       NY
+Zip                                                      14779
+Latitude                                               42.1583
+Longitude                                              -78.736
+Full Address                560 BROAD ST.  SALAMANCA, NY 14779
+matchsource                                           Original
+est_id                                                    1143
+found_pic                                                  NaN
+Manual Result                                              NaN
+name_update                                            Correct
+addr_update               58 Main St, Salamanca, NY 14779, USA
+lat_update                                           42.157464
+lon_update                                         -78.7149799
+biz_status                                              Closed
+DBA Name_update                                   POST SMOKES 
+Full Address_update       58 Main St, Salamanca, NY 14779, USA
+Latitude_update                             42.157464000000004
+Longitude_update                            -78.71497990000002
+Coordinates               POINT (-78.71497990000002 42.157464)
+On Tribe Land                                              Yes
+Miles to Nearest Tribe                                     0.0
+Assoc Tribe                                           Allegany
+Assoc Res                                 Allegany Reservation
+Nearest Tribe                                              NaN
+Nearest Res                                                NaN
+ori_flg                                     From Original List
+Owner Name                                                 NaN
+Owner City                                                 NaN
+Owner State                                                NaN
+Non-Corporate Owned                                        NaN
+Niel_id                                                    NaN
+Address Line 1_update                               58 MAIN ST
+City_update                                          SALAMANCA
+State_update                                                NY
+Zip_update                                               14779
+County                                                     NaN
+County_update                                      CATTARAUGUS
+SoS_record                                                 NaN
+entity                                                     NaN
+agent_name                                                 NaN
+agent_address                                              NaN
+agent_city                                                 NaN
+agent_state                                                NaN
+agent_zip                                                  NaN
+Name: 33, dtype: object
+-------------SOS candidate 156----------------
+DOS ID                                              3149980
+bizname                                   POST SMOKES, INC.
+Initial DOS Filing Date                          01/13/2005
+County                                          CATTARAUGUS
+Jurisdiction                                       NEW YORK
+Entity Type                   DOMESTIC BUSINESS CORPORATION
+DOS Process Name                          POST SMOKES, INC.
+maddress1                                       DANIEL POST
+maddress2                                    58 MAIN STREET
+mcity                                             SALAMANCA
+mstate                                             NEW YORK
+mzip                                                  14779
+CEO Name                                                NaN
+CEO Address 1                                           NaN
+CEO Address 2                                           NaN
+CEO City                                                NaN
+CEO State                                               NaN
+CEO Zip                                                 NaN
+Registered Agent Name                                   NaN
+Registered Agent Address 1                              NaN
+Registered Agent Address 2                              NaN
+Registered Agent City                                   NaN
+Registered Agent State                                  NaN
+Registered Agent Zip                                    NaN
+Location Name                                           NaN
+paddress1                                       DANIEL POST
+paddress2                                    58 MAIN STREET
+pcity                                             SALAMANCA
+pstate                                             NEW YORK
+pzip                                                  14779
+id                                                  1955935
+name_score                                                1
+common_flag                                               1
+StreetName_score                                          1
+StreetNamePostType_score                                  1
+AddressNumber_score                                       1
+ZipCode_score                                             1
+match                                                     1
+Name: 156, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                    1157
+IMPAQ_ID                                                      1157
+REI                                                       NY746642
+DBA Name                             ONEIDA MART SAVON CONVENIENCE
+Address Line 1                                        1 LENOX AVE.
+Address Line 2                                                 NaN
+City                                                        ONEIDA
+State                                                           NY
+Zip                                                          13421
+Latitude                                                   43.0929
+Longitude                                                 -75.6432
+Full Address                        1 LENOX AVE.  ONEIDA, NY 13421
+matchsource                                               Original
+est_id                                                        1157
+found_pic                                                      NaN
+Manual Result                                                  NaN
+name_update                                                Correct
+addr_update               1 Upper Lenox Ave, Oneida, NY 13421, USA
+lat_update                                               43.092654
+lon_update                                             -75.6432888
+biz_status                                                  Active
+DBA Name_update                      ONEIDA MART SAVON CONVENIENCE
+Full Address_update       1 Upper Lenox Ave, Oneida, NY 13421, USA
+Latitude_update                                 43.092653999999996
+Longitude_update                                       -75.6432888
+Coordinates                   POINT (-75.64328879999999 43.092654)
+On Tribe Land                                                   No
+Miles to Nearest Tribe                          3.6245721730000002
+Assoc Tribe                                                    NaN
+Assoc Res                                                      NaN
+Nearest Tribe                                        Oneida Nation
+Nearest Res                              Oneida Nation Reservation
+ori_flg                                         From Original List
+Owner Name                                                     NaN
+Owner City                                                     NaN
+Owner State                                                    NaN
+Non-Corporate Owned                                            NaN
+Niel_id                                                        NaN
+Address Line 1_update                            1 UPPER LENOX AVE
+City_update                                                 ONEIDA
+State_update                                                    NY
+Zip_update                                                   13421
+County                                                         NaN
+County_update                                              MADISON
+SoS_record                                                     NaN
+entity                                                         NaN
+agent_name                                                     NaN
+agent_address                                                  NaN
+agent_city                                                     NaN
+agent_state                                                    NaN
+agent_zip                                                      NaN
+Name: 42, dtype: object
+-------------SOS candidate 197----------------
+DOS ID                                                    1413849
+bizname                        GREATER ONEIDA LITTLE LEAGUE, INC.
+Initial DOS Filing Date                                01/11/1990
+County                                                    MADISON
+Jurisdiction                                             NEW YORK
+Entity Type                   DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name               GREATER ONEIDA LITTLE LEAGUE, INC.
+maddress1                                    101 WOODLAND TERRACE
+maddress2                                                     NaN
+mcity                                                      ONEIDA
+mstate                                                   NEW YORK
+mzip                                                        13421
+CEO Name                                                      NaN
+CEO Address 1                                                 NaN
+CEO Address 2                                                 NaN
+CEO City                                                      NaN
+CEO State                                                     NaN
+CEO Zip                                                       NaN
+Registered Agent Name                                         NaN
+Registered Agent Address 1                                    NaN
+Registered Agent Address 2                                    NaN
+Registered Agent City                                         NaN
+Registered Agent State                                        NaN
+Registered Agent Zip                                          NaN
+Location Name                                                 NaN
+paddress1                                    101 WOODLAND TERRACE
+paddress2                                                     NaN
+pcity                                                      ONEIDA
+pstate                                                   NEW YORK
+pzip                                                        13421
+id                                                        1106342
+name_score                                               0.992828
+common_flag                                                     0
+StreetName_score                                              NaN
+StreetNamePostType_score                                      NaN
+AddressNumber_score                                           NaN
+ZipCode_score                                                 NaN
+match                                                           1
+Name: 197, dtype: object
+-------------SOS candidate 333----------------
+DOS ID                                              5091049
+bizname                               NEW ONEIDA REST. INC.
+Initial DOS Filing Date                          02/24/2017
+County                                              MADISON
+Jurisdiction                                       NEW YORK
+Entity Type                   DOMESTIC BUSINESS CORPORATION
+DOS Process Name                               MIN HUI CHEN
+maddress1                           1022 ONEIDA PLAZA DRIVE
+maddress2                                               NaN
+mcity                                                ONEIDA
+mstate                                             NEW YORK
+mzip                                                  13421
+CEO Name                                                NaN
+CEO Address 1                                           NaN
+CEO Address 2                                           NaN
+CEO City                                                NaN
+CEO State                                               NaN
+CEO Zip                                                 NaN
+Registered Agent Name                                   NaN
+Registered Agent Address 1                              NaN
+Registered Agent Address 2                              NaN
+Registered Agent City                                   NaN
+Registered Agent State                                  NaN
+Registered Agent Zip                                    NaN
+Location Name                                           NaN
+paddress1                           1022 ONEIDA PLAZA DRIVE
+paddress2                                               NaN
+pcity                                                ONEIDA
+pstate                                             NEW YORK
+pzip                                                  13421
+id                                                  1763577
+name_score                                         0.997667
+common_flag                                               0
+StreetName_score                                        NaN
+StreetNamePostType_score                                NaN
+AddressNumber_score                                     NaN
+ZipCode_score                                           NaN
+match                                                     1
+Name: 333, dtype: object
+-------------SOS candidate 356----------------
+DOS ID                                                    4924262
+bizname                        ONEIDA CITY CENTER COMMITTEE, INC.
+Initial DOS Filing Date                                04/04/2016
+County                                                    MADISON
+Jurisdiction                                             NEW YORK
+Entity Type                   DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name               ONEIDA CITY CENTER COMMITTEE, INC.
+maddress1                                      155 MADISON STREET
+maddress2                                                     NaN
+mcity                                                      ONEIDA
+mstate                                                   NEW YORK
+mzip                                                        13421
+CEO Name                                                      NaN
+CEO Address 1                                                 NaN
+CEO Address 2                                                 NaN
+CEO City                                                      NaN
+CEO State                                                     NaN
+CEO Zip                                                       NaN
+Registered Agent Name                                         NaN
+Registered Agent Address 1                                    NaN
+Registered Agent Address 2                                    NaN
+Registered Agent City                                         NaN
+Registered Agent State                                        NaN
+Registered Agent Zip                                          NaN
+Location Name                                                 NaN
+paddress1                                      155 MADISON STREET
+paddress2                                                     NaN
+pcity                                                      ONEIDA
+pstate                                                   NEW YORK
+pzip                                                        13421
+id                                                        1846162
+name_score                                               0.993208
+common_flag                                                     0
+StreetName_score                                              NaN
+StreetNamePostType_score                                      NaN
+AddressNumber_score                                           NaN
+ZipCode_score                                                 NaN
+match                                                           1
+Name: 356, dtype: object
+-------------SOS candidate 360----------------
+DOS ID                                                      915107
+bizname                       ONEIDA DEVELOPMENT ASSOCIATION, INC.
+Initial DOS Filing Date                                 05/08/1984
+County                                                     MADISON
+Jurisdiction                                              NEW YORK
+Entity Type                    DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name                          SPENCER G. FELDMANN, ESQ
+maddress1                                           108 LENOX AVE.
+maddress2                                                      NaN
+mcity                                                       ONEIDA
+mstate                                                    NEW YORK
+mzip                                                         13421
+CEO Name                                                       NaN
+CEO Address 1                                                  NaN
+CEO Address 2                                                  NaN
+CEO City                                                       NaN
+CEO State                                                      NaN
+CEO Zip                                                        NaN
+Registered Agent Name                                          NaN
+Registered Agent Address 1                                     NaN
+Registered Agent Address 2                                     NaN
+Registered Agent City                                          NaN
+Registered Agent State                                         NaN
+Registered Agent Zip                                           NaN
+Location Name                                                  NaN
+paddress1                                           108 LENOX AVE.
+paddress2                                                      NaN
+pcity                                                       ONEIDA
+pstate                                                    NEW YORK
+pzip                                                         13421
+id                                                         1846210
+name_score                                                0.994887
+common_flag                                                      0
+StreetName_score                                               NaN
+StreetNamePostType_score                                       NaN
+AddressNumber_score                                            NaN
+ZipCode_score                                                  NaN
+match                                                            1
+Name: 360, dtype: object
+-------------SOS candidate 361----------------
+DOS ID                                                   3117569
+bizname                                  ONEIDA DEVELOPMENT, LLC
+Initial DOS Filing Date                               10/25/2004
+County                                                   MADISON
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name                         ONEIDA DEVELOPMENT, LLC
+maddress1                                   1264 GLENWOOD AVENUE
+maddress2                                           P.O. BOX 270
+mcity                                                     ONEIDA
+mstate                                                  NEW YORK
+mzip                                                       13421
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                   1264 GLENWOOD AVENUE
+paddress2                                           P.O. BOX 270
+pcity                                                     ONEIDA
+pstate                                                  NEW YORK
+pzip                                                       13421
+id                                                       1846211
+name_score                                              0.998344
+common_flag                                                    0
+StreetName_score                                               0
+StreetNamePostType_score                                       1
+AddressNumber_score                                            0
+ZipCode_score                                                  1
+match                                                          1
+Name: 361, dtype: object
+-------------SOS candidate 363----------------
+DOS ID                                                   4196271
+bizname                               ONEIDA DRIVING SCHOOL, LLC
+Initial DOS Filing Date                               01/31/2012
+County                                                   MADISON
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name                      ONEIDA DRIVING SCHOOL, LLC
+maddress1                                      215 DRIFTWOOD DR.
+maddress2                                                    NaN
+mcity                                                     ONEIDA
+mstate                                                  NEW YORK
+mzip                                                       13421
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                      215 DRIFTWOOD DR.
+paddress2                                                    NaN
+pcity                                                     ONEIDA
+pstate                                                  NEW YORK
+pzip                                                       13421
+id                                                       1846216
+name_score                                              0.994419
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 363, dtype: object
+-------------SOS candidate 367----------------
+DOS ID                                                    1492700
+bizname                            ONEIDA HEALTH CARE CORPORATION
+Initial DOS Filing Date                                12/04/1990
+County                                                    MADISON
+Jurisdiction                                             NEW YORK
+Entity Type                   DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name                   ONEIDA HEALTH CARE CORPORATION
+maddress1                                      321 GENESEE STREET
+maddress2                                                     NaN
+mcity                                                      ONEIDA
+mstate                                                   NEW YORK
+mzip                                                        13421
+CEO Name                                                      NaN
+CEO Address 1                                                 NaN
+CEO Address 2                                                 NaN
+CEO City                                                      NaN
+CEO State                                                     NaN
+CEO Zip                                                       NaN
+Registered Agent Name                                         NaN
+Registered Agent Address 1                                    NaN
+Registered Agent Address 2                                    NaN
+Registered Agent City                                         NaN
+Registered Agent State                                        NaN
+Registered Agent Zip                                          NaN
+Location Name                                                 NaN
+paddress1                                      321 GENESEE STREET
+paddress2                                                     NaN
+pcity                                                      ONEIDA
+pstate                                                   NEW YORK
+pzip                                                        13421
+id                                                        1846237
+name_score                                               0.990247
+common_flag                                                     0
+StreetName_score                                              NaN
+StreetNamePostType_score                                      NaN
+AddressNumber_score                                           NaN
+ZipCode_score                                                 NaN
+match                                                           1
+Name: 367, dtype: object
+-------------SOS candidate 370----------------
+DOS ID                                                    1982809
+bizname                               ONEIDA HEALTH SYSTEMS, INC.
+Initial DOS Filing Date                                12/18/1995
+County                                                    MADISON
+Jurisdiction                                             NEW YORK
+Entity Type                   DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name                      ONEIDA HEALTH SYSTEMS, INC.
+maddress1                                      321 GENESEE STREET
+maddress2                                                     NaN
+mcity                                                      ONEIDA
+mstate                                                   NEW YORK
+mzip                                                        13421
+CEO Name                                                      NaN
+CEO Address 1                                                 NaN
+CEO Address 2                                                 NaN
+CEO City                                                      NaN
+CEO State                                                     NaN
+CEO Zip                                                       NaN
+Registered Agent Name                                         NaN
+Registered Agent Address 1                                    NaN
+Registered Agent Address 2                                    NaN
+Registered Agent City                                         NaN
+Registered Agent State                                        NaN
+Registered Agent Zip                                          NaN
+Location Name                                                 NaN
+paddress1                                      321 GENESEE STREET
+paddress2                                                     NaN
+pcity                                                      ONEIDA
+pstate                                                   NEW YORK
+pzip                                                        13421
+id                                                        1846241
+name_score                                               0.995437
+common_flag                                                     0
+StreetName_score                                              NaN
+StreetNamePostType_score                                      NaN
+AddressNumber_score                                           NaN
+ZipCode_score                                                 NaN
+match                                                           1
+Name: 370, dtype: object
+-------------SOS candidate 386----------------
+DOS ID                                                    3292326
+bizname                              ONEIDA PARK FOUNDATION, INC.
+Initial DOS Filing Date                                12/13/2005
+County                                                    MADISON
+Jurisdiction                                             NEW YORK
+Entity Type                   DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name                                C/O JAMES J. BOND
+maddress1                                    4105 HIGHBRIDGE ROAD
+maddress2                                                     NaN
+mcity                                                      ONEIDA
+mstate                                                   NEW YORK
+mzip                                                        13421
+CEO Name                                                      NaN
+CEO Address 1                                                 NaN
+CEO Address 2                                                 NaN
+CEO City                                                      NaN
+CEO State                                                     NaN
+CEO Zip                                                       NaN
+Registered Agent Name                                         NaN
+Registered Agent Address 1                                    NaN
+Registered Agent Address 2                                    NaN
+Registered Agent City                                         NaN
+Registered Agent State                                        NaN
+Registered Agent Zip                                          NaN
+Location Name                                                 NaN
+paddress1                                    4105 HIGHBRIDGE ROAD
+paddress2                                                     NaN
+pcity                                                      ONEIDA
+pstate                                                   NEW YORK
+pzip                                                        13421
+id                                                        1846314
+name_score                                               0.991502
+common_flag                                                     0
+StreetName_score                                              NaN
+StreetNamePostType_score                                      NaN
+AddressNumber_score                                           NaN
+ZipCode_score                                                 NaN
+match                                                           1
+Name: 386, dtype: object
+-------------SOS candidate 391----------------
+DOS ID                                                   4299016
+bizname                               ONEIDA PROCESS SERVICE LLC
+Initial DOS Filing Date                               09/21/2012
+County                                                   MADISON
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name                      ONEIDA PROCESS SERVICE LLC
+maddress1                                             PO BOX 657
+maddress2                                                    NaN
+mcity                                                     ONEIDA
+mstate                                                  NEW YORK
+mzip                                                       13421
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                             PO BOX 657
+paddress2                                                    NaN
+pcity                                                     ONEIDA
+pstate                                                  NEW YORK
+pzip                                                       13421
+id                                                       1846325
+name_score                                              0.996832
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 391, dtype: object
+-------------SOS candidate 393----------------
+DOS ID                                                   2404690
+bizname                                ONEIDA SERVICE CENTER LLC
+Initial DOS Filing Date                               08/02/1999
+County                                                   MADISON
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name                       ONEIDA SERVICE CENTER LLC
+maddress1                                       107 LENOX AVENUE
+maddress2                                                    NaN
+mcity                                                     ONEIDA
+mstate                                                  NEW YORK
+mzip                                                       13421
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                       107 LENOX AVENUE
+paddress2                                                    NaN
+pcity                                                     ONEIDA
+pstate                                                  NEW YORK
+pzip                                                       13421
+id                                                       1846342
+name_score                                               0.99588
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 393, dtype: object
+-------------SOS candidate 394----------------
+DOS ID                                                    5285835
+bizname                                  ONEIDA SOCIAL CLUB, INC.
+Initial DOS Filing Date                                02/13/2018
+County                                                    MADISON
+Jurisdiction                                             NEW YORK
+Entity Type                   DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name                         ONEIDA SOCIAL CLUB, INC.
+maddress1                                              PO BOX 607
+maddress2                                                     NaN
+mcity                                                      ONEIDA
+mstate                                                   NEW YORK
+mzip                                                        13421
+CEO Name                                                      NaN
+CEO Address 1                                                 NaN
+CEO Address 2                                                 NaN
+CEO City                                                      NaN
+CEO State                                                     NaN
+CEO Zip                                                       NaN
+Registered Agent Name                                         NaN
+Registered Agent Address 1                                    NaN
+Registered Agent Address 2                                    NaN
+Registered Agent City                                         NaN
+Registered Agent State                                        NaN
+Registered Agent Zip                                          NaN
+Location Name                                                 NaN
+paddress1                                              PO BOX 607
+paddress2                                                     NaN
+pcity                                                      ONEIDA
+pstate                                                   NEW YORK
+pzip                                                        13421
+id                                                        1846347
+name_score                                               0.996307
+common_flag                                                     0
+StreetName_score                                              NaN
+StreetNamePostType_score                                      NaN
+AddressNumber_score                                           NaN
+ZipCode_score                                                 NaN
+match                                                           1
+Name: 394, dtype: object
+-------------SOS candidate 395----------------
+DOS ID                                                    5214654
+bizname                                       ONEIDA STRONG, INC.
+Initial DOS Filing Date                                10/10/2017
+County                                                    MADISON
+Jurisdiction                                             NEW YORK
+Entity Type                   DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name                              ONEIDA STRONG, INC.
+maddress1                            112 FARRIER AVENUE SUITE 101
+maddress2                                                     NaN
+mcity                                                      ONEIDA
+mstate                                                   NEW YORK
+mzip                                                          NaN
+CEO Name                                                      NaN
+CEO Address 1                                                 NaN
+CEO Address 2                                                 NaN
+CEO City                                                      NaN
+CEO State                                                     NaN
+CEO Zip                                                       NaN
+Registered Agent Name                                         NaN
+Registered Agent Address 1                                    NaN
+Registered Agent Address 2                                    NaN
+Registered Agent City                                         NaN
+Registered Agent State                                        NaN
+Registered Agent Zip                                          NaN
+Location Name                                                 NaN
+paddress1                            112 FARRIER AVENUE SUITE 101
+paddress2                                                     NaN
+pcity                                                      ONEIDA
+pstate                                                   NEW YORK
+pzip                                                          NaN
+id                                                        1846357
+name_score                                               0.997916
+common_flag                                                     0
+StreetName_score                                              NaN
+StreetNamePostType_score                                      NaN
+AddressNumber_score                                           NaN
+ZipCode_score                                                 NaN
+match                                                           1
+Name: 395, dtype: object
+-------------SOS candidate 399----------------
+DOS ID                                                   4179914
+bizname                               ONEIDA WEB DEVELOPMENT LLC
+Initial DOS Filing Date                               12/22/2011
+County                                                   MADISON
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name               KEVIN FAIRBANKS & ASSOCIATES, LLC
+maddress1                                             PO BOX 221
+maddress2                                      358 CLEVELAND AVE
+mcity                                                     ONEIDA
+mstate                                                  NEW YORK
+mzip                                                       13421
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                             PO BOX 221
+paddress2                                      358 CLEVELAND AVE
+pcity                                                     ONEIDA
+pstate                                                  NEW YORK
+pzip                                                       13421
+id                                                       1846371
+name_score                                              0.992768
+common_flag                                                    0
+StreetName_score                                               0
+StreetNamePostType_score                                       1
+AddressNumber_score                                            0
+ZipCode_score                                                  1
+match                                                          1
+Name: 399, dtype: object
+-------------SOS candidate 528----------------
+DOS ID                                                         73610
+bizname                       THE UNITED WAY OF GREATER ONEIDA, INC.
+Initial DOS Filing Date                                   08/15/1949
+County                                                       MADISON
+Jurisdiction                                                NEW YORK
+Entity Type                      DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name              THE UNITED WAY OF GREATER ONEIDA, INC.
+maddress1                                         160 MADISON STREET
+maddress2                                                        NaN
+mcity                                                         ONEIDA
+mstate                                                      NEW YORK
+mzip                                                           13421
+CEO Name                                                         NaN
+CEO Address 1                                                    NaN
+CEO Address 2                                                    NaN
+CEO City                                                         NaN
+CEO State                                                        NaN
+CEO Zip                                                          NaN
+Registered Agent Name                                            NaN
+Registered Agent Address 1                                       NaN
+Registered Agent Address 2                                       NaN
+Registered Agent City                                            NaN
+Registered Agent State                                           NaN
+Registered Agent Zip                                             NaN
+Location Name                                                    NaN
+paddress1                                         160 MADISON STREET
+paddress2                                                        NaN
+pcity                                                         ONEIDA
+pstate                                                      NEW YORK
+pzip                                                           13421
+id                                                           2451845
+name_score                                                  0.994753
+common_flag                                                        0
+StreetName_score                                                 NaN
+StreetNamePostType_score                                         NaN
+AddressNumber_score                                              NaN
+ZipCode_score                                                    NaN
+match                                                              1
+Name: 528, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                             1168
+IMPAQ_ID                                               1168
+REI                                                NY746665
+DBA Name                                ONONDAGA SMOKE SHOP
+Address Line 1                                  326 U.S. 11
+Address Line 2                                          NaN
+City                                                 NEDROW
+State                                                    NY
+Zip                                                   13120
+Latitude                                            42.9671
+Longitude                                          -76.1402
+Full Address                  326 U.S. 11  NEDROW, NY 13120
+matchsource                                          Google
+est_id                                                 1168
+found_pic                                               NaN
+Manual Result                                           NaN
+name_update                      ONONDAGA NATION SMOKE SHOP
+addr_update               3951 US-11, Nedrow, NY 13120, USA
+lat_update                                       42.9648927
+lon_update                                      -76.1404433
+biz_status                                           Active
+DBA Name_update                  ONONDAGA NATION SMOKE SHOP
+Full Address_update       3951 US-11, Nedrow, NY 13120, USA
+Latitude_update                                  42.9648927
+Longitude_update                                -76.1404433
+Coordinates                  POINT (-76.1404433 42.9648927)
+On Tribe Land                                           Yes
+Miles to Nearest Tribe                                  0.0
+Assoc Tribe                                 Onondaga Nation
+Assoc Res                       Onondaga Nation Reservation
+Nearest Tribe                                           NaN
+Nearest Res                                             NaN
+ori_flg                                  From Original List
+Owner Name                                              NaN
+Owner City                                              NaN
+Owner State                                             NaN
+Non-Corporate Owned                                     NaN
+Niel_id                                                 NaN
+Address Line 1_update                            3951 US-11
+City_update                                          NEDROW
+State_update                                             NY
+Zip_update                                            13120
+County                                                  NaN
+County_update                                      ONONDAGA
+SoS_record                                              NaN
+entity                                                  NaN
+agent_name                                              NaN
+agent_address                                           NaN
+agent_city                                              NaN
+agent_state                                             NaN
+agent_zip                                               NaN
+Name: 47, dtype: object
+-------------SOS candidate 55----------------
+DOS ID                                                  5408706
+bizname                       ONONDAGA CONSTRUCTION CORPORATION
+Initial DOS Filing Date                              09/12/2018
+County                                                 ONONDAGA
+Jurisdiction                                           NEW YORK
+Entity Type                       DOMESTIC BUSINESS CORPORATION
+DOS Process Name                                  VERNON ABRAMS
+maddress1                                       4060 WEBSTER RD
+maddress2                                                   NaN
+mcity                                                    NEDROW
+mstate                                                 NEW YORK
+mzip                                                      13120
+CEO Name                                                    NaN
+CEO Address 1                                               NaN
+CEO Address 2                                               NaN
+CEO City                                                    NaN
+CEO State                                                   NaN
+CEO Zip                                                     NaN
+Registered Agent Name                                       NaN
+Registered Agent Address 1                                  NaN
+Registered Agent Address 2                                  NaN
+Registered Agent City                                       NaN
+Registered Agent State                                      NaN
+Registered Agent Zip                                        NaN
+Location Name                                               NaN
+paddress1                                       4060 WEBSTER RD
+paddress2                                                   NaN
+pcity                                                    NEDROW
+pstate                                                 NEW YORK
+pzip                                                      13120
+id                                                      1849790
+name_score                                             0.992744
+common_flag                                                   0
+StreetName_score                                            NaN
+StreetNamePostType_score                                    NaN
+AddressNumber_score                                         NaN
+ZipCode_score                                               NaN
+match                                                         1
+Name: 55, dtype: object
+-------------SOS candidate 66----------------
+DOS ID                                                       72887
+bizname                       SOUTH ONONDAGA FIRE DEPARTMENT, INC.
+Initial DOS Filing Date                                 03/14/1949
+County                                                    ONONDAGA
+Jurisdiction                                              NEW YORK
+Entity Type                    DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name              SOUTH ONONDAGA FIRE DEPARTMENT, INC.
+maddress1                                         3315 MAKYES ROAD
+maddress2                                                      NaN
+mcity                                                       NEDROW
+mstate                                                    NEW YORK
+mzip                                                         13120
+CEO Name                                                       NaN
+CEO Address 1                                                  NaN
+CEO Address 2                                                  NaN
+CEO City                                                       NaN
+CEO State                                                      NaN
+CEO Zip                                                        NaN
+Registered Agent Name                                          NaN
+Registered Agent Address 1                                     NaN
+Registered Agent Address 2                                     NaN
+Registered Agent City                                          NaN
+Registered Agent State                                         NaN
+Registered Agent Zip                                           NaN
+Location Name                                                  NaN
+paddress1                                         3315 MAKYES ROAD
+paddress2                                                      NaN
+pcity                                                       NEDROW
+pstate                                                    NEW YORK
+pzip                                                         13120
+id                                                         2259047
+name_score                                                0.996607
+common_flag                                                      0
+StreetName_score                                               NaN
+StreetNamePostType_score                                       NaN
+AddressNumber_score                                            NaN
+ZipCode_score                                                  NaN
+match                                                            1
+Name: 66, dtype: object
+-------------SOS candidate 81----------------
+DOS ID                                                   3421987
+bizname                            WEST ONONDAGA PROPERTIES, LLC
+Initial DOS Filing Date                               10/10/2006
+County                                                  ONONDAGA
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name                   WEST ONONDAGA PROPERTIES, LLC
+maddress1                                        ATTN: PRESIDENT
+maddress2                         5126 SOUTH ONONDAGA RD PO BX A
+mcity                                                     NEDROW
+mstate                                                  NEW YORK
+mzip                                                       13120
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                        ATTN: PRESIDENT
+paddress2                         5126 SOUTH ONONDAGA RD PO BX A
+pcity                                                     NEDROW
+pstate                                                  NEW YORK
+pzip                                                       13120
+id                                                       2629680
+name_score                                              0.993337
+common_flag                                                    0
+StreetName_score                                               0
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                            0
+ZipCode_score                                                  1
+match                                                          1
+Name: 81, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                    1193
+IMPAQ_ID                                                      1193
+REI                                                       NY748334
+DBA Name                            SENECA NIAGARA RESORT & CASINO
+Address Line 1                                      310 FOURTH ST.
+Address Line 2                                                 NaN
+City                                                 NIAGARA FALLS
+State                                                           NY
+Zip                                                          14303
+Latitude                                                   43.0863
+Longitude                                                 -79.0578
+Full Address               310 FOURTH ST.  NIAGARA FALLS, NY 14303
+matchsource                                               Original
+est_id                                                        1193
+found_pic                                                      NaN
+Manual Result                                                  NaN
+name_update                                                Correct
+addr_update               310 4th St, Niagara Falls, NY 14303, USA
+lat_update                                              43.0862416
+lon_update                                             -79.0576795
+biz_status                                                  Active
+DBA Name_update                     SENECA NIAGARA RESORT & CASINO
+Full Address_update       310 4th St, Niagara Falls, NY 14303, USA
+Latitude_update                                         43.0862416
+Longitude_update                                       -79.0576795
+Coordinates                  POINT (-79.05767949999998 43.0862416)
+On Tribe Land                                                   No
+Miles to Nearest Tribe                                 6.348923721
+Assoc Tribe                                                    NaN
+Assoc Res                                                      NaN
+Nearest Tribe                                     Tuscarora Nation
+Nearest Res                           Tuscarora Nation Reservation
+ori_flg                                         From Original List
+Owner Name                                                     NaN
+Owner City                                                     NaN
+Owner State                                                    NaN
+Non-Corporate Owned                                            NaN
+Niel_id                                                        NaN
+Address Line 1_update                                   310 4TH ST
+City_update                                          NIAGARA FALLS
+State_update                                                    NY
+Zip_update                                                   14303
+County                                                         NaN
+County_update                                              NIAGARA
+SoS_record                                                     NaN
+entity                                                         NaN
+agent_name                                                     NaN
+agent_address                                                  NaN
+agent_city                                                     NaN
+agent_state                                                    NaN
+agent_zip                                                      NaN
+Name: 52, dtype: object
+-------------SOS candidate 59----------------
+DOS ID                                                   5206211
+bizname                                27TH & NIAGARA STREET LLC
+Initial DOS Filing Date                               09/22/2017
+County                                                   NIAGARA
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name                       27TH & NIAGARA STREET LLC
+maddress1                                        2636 FERCHEN ST
+maddress2                                                    NaN
+mcity                                              NIAGARA FALLS
+mstate                                                  NEW YORK
+mzip                                                       14304
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                              AMARJIT SINGH
+Registered Agent Address 1                       2636 FERCHEN ST
+Registered Agent Address 2                                   NaN
+Registered Agent City                              NIAGARA FALLS
+Registered Agent State                                  NEW YORK
+Registered Agent Zip                                       14304
+Location Name                                                NaN
+paddress1                                        2636 FERCHEN ST
+paddress2                                                    NaN
+pcity                                              NIAGARA FALLS
+pstate                                                  NEW YORK
+pzip                                                       14304
+id                                                         93588
+name_score                                              0.991956
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 59, dtype: object
+-------------SOS candidate 1031----------------
+DOS ID                                                  3581224
+bizname                       EVERYTHING, ANYTHING, & MORE, INC
+Initial DOS Filing Date                              10/17/2007
+County                                                  NIAGARA
+Jurisdiction                                           NEW YORK
+Entity Type                       DOMESTIC BUSINESS CORPORATION
+DOS Process Name              EVERYTHING, ANYTHING, & MORE, INC
+maddress1                                         1823 PINE AVE
+maddress2                                                   NaN
+mcity                                             NIAGARA FALLS
+mstate                                                 NEW YORK
+mzip                                                      14305
+CEO Name                                                    NaN
+CEO Address 1                                               NaN
+CEO Address 2                                               NaN
+CEO City                                                    NaN
+CEO State                                                   NaN
+CEO Zip                                                     NaN
+Registered Agent Name                                       NaN
+Registered Agent Address 1                                  NaN
+Registered Agent Address 2                                  NaN
+Registered Agent City                                       NaN
+Registered Agent State                                      NaN
+Registered Agent Zip                                        NaN
+Location Name                                               NaN
+paddress1                                         1823 PINE AVE
+paddress2                                                   NaN
+pcity                                             NIAGARA FALLS
+pstate                                                 NEW YORK
+pzip                                                      14305
+id                                                       928026
+name_score                                             0.993761
+common_flag                                                   0
+StreetName_score                                            NaN
+StreetNamePostType_score                                    NaN
+AddressNumber_score                                         NaN
+ZipCode_score                                               NaN
+match                                                         1
+Name: 1031, dtype: object
+-------------SOS candidate 2136----------------
+DOS ID                                                   4191988
+bizname                                    NIAGARA ON THE GO LLC
+Initial DOS Filing Date                               01/23/2012
+County                                                   NIAGARA
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name                           NIAGARA ON THE GO LLC
+maddress1                                      1316 NIAGARA AVE.
+maddress2                                                    NaN
+mcity                                              NIAGARA FALLS
+mstate                                                  NEW YORK
+mzip                                                       14305
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                            MICHAEL MCTYERE
+Registered Agent Address 1                     1316 NIAGARA AVE.
+Registered Agent Address 2                                   NaN
+Registered Agent City                              NIAGARA FALLS
+Registered Agent State                                  NEW YORK
+Registered Agent Zip                                       14305
+Location Name                                                NaN
+paddress1                                      1316 NIAGARA AVE.
+paddress2                                                    NaN
+pcity                                              NIAGARA FALLS
+pstate                                                  NEW YORK
+pzip                                                       14305
+id                                                       1781731
+name_score                                              0.996439
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 2136, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                   1206
+IMPAQ_ID                                                     1206
+REI                                                      NY749766
+DBA Name                                           SPEEDWAY PLAZA
+Address Line 1                                 935 STATE ROUTE 37
+Address Line 2                                                NaN
+City                                                    AKWESASNE
+State                                                          NY
+Zip                                                         13655
+Latitude                                                  44.9662
+Longitude                                                -74.6379
+Full Address              935 STATE ROUTE 37  AKWESASNE, NY 13655
+matchsource                                              Original
+est_id                                                       1206
+found_pic                                                     NaN
+Manual Result                                                 NaN
+name_update                                               Correct
+addr_update                  935 NY-37, Hogansburg, NY 13655, USA
+lat_update                                              44.966665
+lon_update                                             -74.638903
+biz_status                                                 Active
+DBA Name_update                                    SPEEDWAY PLAZA
+Full Address_update          935 NY-37, Hogansburg, NY 13655, USA
+Latitude_update                                         44.966665
+Longitude_update                                       -74.638903
+Coordinates                  POINT (-74.638903 44.96666500000001)
+On Tribe Land                                                  No
+Miles to Nearest Tribe                                0.064093081
+Assoc Tribe                                                   NaN
+Assoc Res                                                     NaN
+Nearest Tribe                                    St. Regis Mohawk
+Nearest Res                          St. Regis Mohawk Reservation
+ori_flg                                        From Original List
+Owner Name                                                    NaN
+Owner City                                                    NaN
+Owner State                                                   NaN
+Non-Corporate Owned                                           NaN
+Niel_id                                                       NaN
+Address Line 1_update                                     935 -37
+City_update                                            HOGANSBURG
+State_update                                                   NY
+Zip_update                                                  13655
+County                                                        NaN
+County_update                                            FRANKLIN
+SoS_record                                                    NaN
+entity                                                        NaN
+agent_name                                                    NaN
+agent_address                                                 NaN
+agent_city                                                    NaN
+agent_state                                                   NaN
+agent_zip                                                     NaN
+Name: 56, dtype: object
+-------------SOS candidate 37----------------
+DOS ID                                              4448462
+bizname                                 SPEEDWAY PLAZA INC.
+Initial DOS Filing Date                          08/21/2013
+County                                             FRANKLIN
+Jurisdiction                                       NEW YORK
+Entity Type                   DOMESTIC BUSINESS CORPORATION
+DOS Process Name                           C/O RICK HAMELIN
+maddress1                                935 STATE ROUTE 37
+maddress2                                               NaN
+mcity                                            HOGANSBURG
+mstate                                             NEW YORK
+mzip                                                  13655
+CEO Name                                                NaN
+CEO Address 1                                           NaN
+CEO Address 2                                           NaN
+CEO City                                                NaN
+CEO State                                               NaN
+CEO Zip                                                 NaN
+Registered Agent Name                                   NaN
+Registered Agent Address 1                              NaN
+Registered Agent Address 2                              NaN
+Registered Agent City                                   NaN
+Registered Agent State                                  NaN
+Registered Agent Zip                                    NaN
+Location Name                                           NaN
+paddress1                                935 STATE ROUTE 37
+paddress2                                               NaN
+pcity                                            HOGANSBURG
+pstate                                             NEW YORK
+pzip                                                  13655
+id                                                  2266765
+name_score                                                1
+common_flag                                               1
+StreetName_score                                        NaN
+StreetNamePostType_score                                NaN
+AddressNumber_score                                     NaN
+ZipCode_score                                           NaN
+match                                                     1
+Name: 37, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                       1207
+IMPAQ_ID                                                         1207
+REI                                                          NY749776
+DBA Name                                CAYUGA LAKESIDE TRADING STORE
+Address Line 1                                    2552 STATE ROUTE 89
+Address Line 2                                                    NaN
+City                                                     SENECA FALLS
+State                                                              NY
+Zip                                                             13148
+Latitude                                                      42.9011
+Longitude                                                    -76.7548
+Full Address              2552 STATE ROUTE 89  SENECA FALLS, NY 13148
+matchsource                                                  Original
+est_id                                                           1207
+found_pic                                                         NaN
+Manual Result                                                     NaN
+name_update                                       CAYUGA LAKE TRADING
+addr_update                   2552 NY-89, Seneca Falls, NY 13148, USA
+lat_update                                                 42.9011088
+lon_update                                                -76.7553699
+biz_status                                                     Active
+DBA Name_update                                   CAYUGA LAKE TRADING
+Full Address_update           2552 NY-89, Seneca Falls, NY 13148, USA
+Latitude_update                                    42.901108799999996
+Longitude_update                                          -76.7553699
+Coordinates                     POINT (-76.75536990000001 42.9011088)
+On Tribe Land                                                      No
+Miles to Nearest Tribe                                    37.54524474
+Assoc Tribe                                                       NaN
+Assoc Res                                                         NaN
+Nearest Tribe                                         Onondaga Nation
+Nearest Res                               Onondaga Nation Reservation
+ori_flg                                            From Original List
+Owner Name                                                        NaN
+Owner City                                                        NaN
+Owner State                                                       NaN
+Non-Corporate Owned                                               NaN
+Niel_id                                                           NaN
+Address Line 1_update                                        2552 -89
+City_update                                              SENECA FALLS
+State_update                                                       NY
+Zip_update                                                      13148
+County                                                            NaN
+County_update                                                  SENECA
+SoS_record                                                        NaN
+entity                                                            NaN
+agent_name                                                        NaN
+agent_address                                                     NaN
+agent_city                                                        NaN
+agent_state                                                       NaN
+agent_zip                                                         NaN
+Name: 57, dtype: object
+-------------SOS candidate 57----------------
+DOS ID                                                   4882598
+bizname                           CAYUGA LAKE TRADING STORE, LLC
+Initial DOS Filing Date                               01/20/2016
+County                                                    SENECA
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name                  CAYUGA LAKE TRADING STORE, LLC
+maddress1                                    2552 STATE ROUTE 89
+maddress2                                                    NaN
+mcity                                               SENECA FALLS
+mstate                                                  NEW YORK
+mzip                                                       13148
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                    2552 STATE ROUTE 89
+paddress2                                                    NaN
+pcity                                               SENECA FALLS
+pstate                                                  NEW YORK
+pzip                                                       13148
+id                                                        591019
+name_score                                              0.998236
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 57, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                              2767
+IMPAQ_ID                                                2767
+REI                                                      NaN
+DBA Name                                                 NaN
+Address Line 1                                   48 HERNE RD
+Address Line 2                                           NaN
+City                                              HOGANSBURG
+State                                                     NY
+Zip                                                    13655
+Latitude                                                 NaN
+Longitude                                                NaN
+Full Address                                             NaN
+matchsource                                              NaN
+est_id                                                   NaN
+found_pic                                                NaN
+Manual Result                                            NaN
+name_update                                              NaN
+addr_update                                              NaN
+lat_update                                               NaN
+lon_update                                               NaN
+biz_status                                            Active
+DBA Name_update                    AKWESASNE CIGARETTE DEPOT
+Full Address_update       48 Herne Rd, Hogansburg, NY, 13655
+Latitude_update                                    44.978848
+Longitude_update                                   -74.72015
+Coordinates                      POINT (-74.72015 44.978848)
+On Tribe Land                                            Yes
+Miles to Nearest Tribe                                   NaN
+Assoc Tribe                                 St. Regis Mohawk
+Assoc Res                       St. Regis Mohawk Reservation
+Nearest Tribe                                            NaN
+Nearest Res                                              NaN
+ori_flg                                         New Retailer
+Owner Name                                       Independent
+Owner City                                               NaN
+Owner State                                              NaN
+Non-Corporate Owned                                        N
+Niel_id                                          1.86518e+06
+Address Line 1_update                            48 HERNE RD
+City_update                                       HOGANSBURG
+State_update                                              NY
+Zip_update                                             13655
+County                                                   NaN
+County_update                                       FRANKLIN
+SoS_record                                               NaN
+entity                                                   NaN
+agent_name                                               NaN
+agent_address                                            NaN
+agent_city                                               NaN
+agent_state                                              NaN
+agent_zip                                                NaN
+Name: 80, dtype: object
+-------------SOS candidate 2----------------
+DOS ID                                                     321979
+bizname                           AKWESASNE CULTURAL CENTER, INC.
+Initial DOS Filing Date                                01/19/1972
+County                                                   FRANKLIN
+Jurisdiction                                             NEW YORK
+Entity Type                   DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name                  AKWESASNE CULTURAL CENTER, INC.
+maddress1                                      321 STATE ROUTE 37
+maddress2                                                     NaN
+mcity                                                  HOGANSBURG
+mstate                                                   NEW YORK
+mzip                                                        13655
+CEO Name                                                      NaN
+CEO Address 1                                                 NaN
+CEO Address 2                                                 NaN
+CEO City                                                      NaN
+CEO State                                                     NaN
+CEO Zip                                                       NaN
+Registered Agent Name                                         NaN
+Registered Agent Address 1                                    NaN
+Registered Agent Address 2                                    NaN
+Registered Agent City                                         NaN
+Registered Agent State                                        NaN
+Registered Agent Zip                                          NaN
+Location Name                                                 NaN
+paddress1                                      321 STATE ROUTE 37
+paddress2                                                     NaN
+pcity                                                  HOGANSBURG
+pstate                                                   NEW YORK
+pzip                                                        13655
+id                                                         265974
+name_score                                                0.99887
+common_flag                                                     0
+StreetName_score                                              NaN
+StreetNamePostType_score                                      NaN
+AddressNumber_score                                           NaN
+ZipCode_score                                                 NaN
+match                                                           1
+Name: 2, dtype: object
+-------------SOS candidate 3----------------
+DOS ID                                                   5536331
+bizname                              AKWESASNE HOUSING AUTHORITY
+Initial DOS Filing Date                               04/18/2019
+County                                                  FRANKLIN
+Jurisdiction                                          ALL OTHERS
+Entity Type                   FOREIGN NOT-FOR-PROFIT CORPORATION
+DOS Process Name                     AKWESASNE HOUSING AUTHORITY
+maddress1                               ATTN: EXECUTIVE DIRECTOR
+maddress2                              378 STATE ROUTE 37, STE A
+mcity                                                 HOGANSBURG
+mstate                                                  NEW YORK
+mzip                                                       13655
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                               ATTN: EXECUTIVE DIRECTOR
+paddress2                              378 STATE ROUTE 37, STE A
+pcity                                                 HOGANSBURG
+pstate                                                  NEW YORK
+pzip                                                       13655
+id                                                        265977
+name_score                                              0.998409
+common_flag                                                    0
+StreetName_score                                               0
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                            0
+ZipCode_score                                                  1
+match                                                          1
+Name: 3, dtype: object
+-------------SOS candidate 4----------------
+DOS ID                                                   4105766
+bizname                        AKWESASNE TOBACCO PROCESSING, LLC
+Initial DOS Filing Date                               06/13/2011
+County                                                  FRANKLIN
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name               AKWESASNE TOBACCO PROCESSING, LLC
+maddress1                                      344 FROGTOWN ROAD
+maddress2                                                    NaN
+mcity                                                 HOGANSBURG
+mstate                                                  NEW YORK
+mzip                                                       13655
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                      344 FROGTOWN ROAD
+paddress2                                                    NaN
+pcity                                                 HOGANSBURG
+pstate                                                  NEW YORK
+pzip                                                       13655
+id                                                        265981
+name_score                                              0.995428
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 4, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                     2959
+IMPAQ_ID                                                       2959
+REI                                                             NaN
+DBA Name                                                        NaN
+Address Line 1                                   155 STATE ROUTE 37
+Address Line 2                                                  NaN
+City                                                     HOGANSBURG
+State                                                            NY
+Zip                                                           13655
+Latitude                                                        NaN
+Longitude                                                       NaN
+Full Address                                                    NaN
+matchsource                                                     NaN
+est_id                                                          NaN
+found_pic                                                       NaN
+Manual Result                                                   NaN
+name_update                                                     NaN
+addr_update                                                     NaN
+lat_update                                                      NaN
+lon_update                                                      NaN
+biz_status                                                   Active
+DBA Name_update                                 AKWESASNE MINI MART
+Full Address_update       155 State Route 37, Hogansburg, NY, 13655
+Latitude_update                                          44.9782033
+Longitude_update                                        -74.7155416
+Coordinates                   POINT (-74.71554159999999 44.9782033)
+On Tribe Land                                                   Yes
+Miles to Nearest Tribe                                          NaN
+Assoc Tribe                                        St. Regis Mohawk
+Assoc Res                              St. Regis Mohawk Reservation
+Nearest Tribe                                                   NaN
+Nearest Res                                                     NaN
+ori_flg                                                New Retailer
+Owner Name                                              Independent
+Owner City                                                      NaN
+Owner State                                                     NaN
+Non-Corporate Owned                                               N
+Niel_id                                                 1.83431e+06
+Address Line 1_update                            155 STATE ROUTE 37
+City_update                                              HOGANSBURG
+State_update                                                     NY
+Zip_update                                                    13655
+County                                                          NaN
+County_update                                              FRANKLIN
+SoS_record                                                      NaN
+entity                                                          NaN
+agent_name                                                      NaN
+agent_address                                                   NaN
+agent_city                                                      NaN
+agent_state                                                     NaN
+agent_zip                                                       NaN
+Name: 98, dtype: object
+-------------SOS candidate 2----------------
+DOS ID                                                     321979
+bizname                           AKWESASNE CULTURAL CENTER, INC.
+Initial DOS Filing Date                                01/19/1972
+County                                                   FRANKLIN
+Jurisdiction                                             NEW YORK
+Entity Type                   DOMESTIC NOT-FOR-PROFIT CORPORATION
+DOS Process Name                  AKWESASNE CULTURAL CENTER, INC.
+maddress1                                      321 STATE ROUTE 37
+maddress2                                                     NaN
+mcity                                                  HOGANSBURG
+mstate                                                   NEW YORK
+mzip                                                        13655
+CEO Name                                                      NaN
+CEO Address 1                                                 NaN
+CEO Address 2                                                 NaN
+CEO City                                                      NaN
+CEO State                                                     NaN
+CEO Zip                                                       NaN
+Registered Agent Name                                         NaN
+Registered Agent Address 1                                    NaN
+Registered Agent Address 2                                    NaN
+Registered Agent City                                         NaN
+Registered Agent State                                        NaN
+Registered Agent Zip                                          NaN
+Location Name                                                 NaN
+paddress1                                      321 STATE ROUTE 37
+paddress2                                                     NaN
+pcity                                                  HOGANSBURG
+pstate                                                   NEW YORK
+pzip                                                        13655
+id                                                         265974
+name_score                                                0.99887
+common_flag                                                     0
+StreetName_score                                              NaN
+StreetNamePostType_score                                      NaN
+AddressNumber_score                                           NaN
+ZipCode_score                                                 NaN
+match                                                           1
+Name: 2, dtype: object
+-------------SOS candidate 3----------------
+DOS ID                                                   5536331
+bizname                              AKWESASNE HOUSING AUTHORITY
+Initial DOS Filing Date                               04/18/2019
+County                                                  FRANKLIN
+Jurisdiction                                          ALL OTHERS
+Entity Type                   FOREIGN NOT-FOR-PROFIT CORPORATION
+DOS Process Name                     AKWESASNE HOUSING AUTHORITY
+maddress1                               ATTN: EXECUTIVE DIRECTOR
+maddress2                              378 STATE ROUTE 37, STE A
+mcity                                                 HOGANSBURG
+mstate                                                  NEW YORK
+mzip                                                       13655
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                               ATTN: EXECUTIVE DIRECTOR
+paddress2                              378 STATE ROUTE 37, STE A
+pcity                                                 HOGANSBURG
+pstate                                                  NEW YORK
+pzip                                                       13655
+id                                                        265977
+name_score                                              0.998409
+common_flag                                                    0
+StreetName_score                                               1
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                            0
+ZipCode_score                                                  1
+match                                                          1
+Name: 3, dtype: object
+-------------SOS candidate 4----------------
+DOS ID                                                   4105766
+bizname                        AKWESASNE TOBACCO PROCESSING, LLC
+Initial DOS Filing Date                               06/13/2011
+County                                                  FRANKLIN
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name               AKWESASNE TOBACCO PROCESSING, LLC
+maddress1                                      344 FROGTOWN ROAD
+maddress2                                                    NaN
+mcity                                                 HOGANSBURG
+mstate                                                  NEW YORK
+mzip                                                       13655
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                      344 FROGTOWN ROAD
+paddress2                                                    NaN
+pcity                                                 HOGANSBURG
+pstate                                                  NEW YORK
+pzip                                                       13655
+id                                                        265981
+name_score                                              0.995428
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 4, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                2965
+IMPAQ_ID                                                  2965
+REI                                                        NaN
+DBA Name                                                   NaN
+Address Line 1                                  2165 ROUTE 219
+Address Line 2                                             NaN
+City                                                 LIMESTONE
+State                                                       NY
+Zip                                                      14753
+Latitude                                                   NaN
+Longitude                                                  NaN
+Full Address                                               NaN
+matchsource                                                NaN
+est_id                                                     NaN
+found_pic                                                  NaN
+Manual Result                                              NaN
+name_update                                                NaN
+addr_update                                                NaN
+lat_update                                                 NaN
+lon_update                                                 NaN
+biz_status                                              Active
+DBA Name_update                       M & M ALLEGHANY JUNCTION
+Full Address_update       2165 Route 219, Limestone, NY, 14753
+Latitude_update                             42.087146999999995
+Longitude_update                                     -78.63149
+Coordinates                        POINT (-78.63149 42.087147)
+On Tribe Land                                              Yes
+Miles to Nearest Tribe                                     NaN
+Assoc Tribe                                           Allegany
+Assoc Res                                 Allegany Reservation
+Nearest Tribe                                              NaN
+Nearest Res                                                NaN
+ori_flg                                           New Retailer
+Owner Name                                         Independent
+Owner City                                                 NaN
+Owner State                                                NaN
+Non-Corporate Owned                                          N
+Niel_id                                             1.6157e+06
+Address Line 1_update                           2165 ROUTE 219
+City_update                                          LIMESTONE
+State_update                                                NY
+Zip_update                                               14753
+County                                                     NaN
+County_update                                      CATTARAUGUS
+SoS_record                                                 NaN
+entity                                                     NaN
+agent_name                                                 NaN
+agent_address                                              NaN
+agent_city                                                 NaN
+agent_state                                                NaN
+agent_zip                                                  NaN
+Name: 100, dtype: object
+-------------SOS candidate 15----------------
+DOS ID                                                   4181617
+bizname                                      M & M JUNCTION, LLC
+Initial DOS Filing Date                               12/28/2011
+County                                               CATTARAUGUS
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name                             M & M JUNCTION, LLC
+maddress1                                          2165 RTE. 219
+maddress2                                                    NaN
+mcity                                                  LIMESTONE
+mstate                                                  NEW YORK
+mzip                                                       14753
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                          2165 RTE. 219
+paddress2                                                    NaN
+pcity                                                  LIMESTONE
+pstate                                                  NEW YORK
+pzip                                                       14753
+id                                                       1678721
+name_score                                                     1
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 15, dtype: object
+-------------FDA Store----------------
+Unnamed: 0                                                 3113
+IMPAQ_ID                                                   3113
+REI                                                         NaN
+DBA Name                                                    NaN
+Address Line 1                                  53 WILDWOOD AVE
+Address Line 2                                              NaN
+City                                                  SALAMANCA
+State                                                        NY
+Zip                                                       14779
+Latitude                                                    NaN
+Longitude                                                   NaN
+Full Address                                                NaN
+matchsource                                                 NaN
+est_id                                                      NaN
+found_pic                                                   NaN
+Manual Result                                               NaN
+name_update                                                 NaN
+addr_update                                                 NaN
+lat_update                                                  NaN
+lon_update                                                  NaN
+biz_status                                               Active
+DBA Name_update                           WILDWOOD BAR & SALOON
+Full Address_update       53 Wildwood Ave, Salamanca, NY, 14779
+Latitude_update                              42.157565999999996
+Longitude_update                                      -78.71369
+Coordinates                         POINT (-78.71369 42.157566)
+On Tribe Land                                               Yes
+Miles to Nearest Tribe                                      NaN
+Assoc Tribe                                            Allegany
+Assoc Res                                  Allegany Reservation
+Nearest Tribe                                               NaN
+Nearest Res                                                 NaN
+ori_flg                                            New Retailer
+Owner Name                                          Independent
+Owner City                                                  NaN
+Owner State                                                 NaN
+Non-Corporate Owned                                           N
+Niel_id                                             3.92903e+06
+Address Line 1_update                           53 WILDWOOD AVE
+City_update                                           SALAMANCA
+State_update                                                 NY
+Zip_update                                                14779
+County                                                      NaN
+County_update                                       CATTARAUGUS
+SoS_record                                                  NaN
+entity                                                      NaN
+agent_name                                                  NaN
+agent_address                                               NaN
+agent_city                                                  NaN
+agent_state                                                 NaN
+agent_zip                                                   NaN
+Name: 111, dtype: object
+-------------SOS candidate 8----------------
+DOS ID                                                   3348572
+bizname                                         53 WILDWOOD, LLC
+Initial DOS Filing Date                               04/13/2006
+County                                               CATTARAUGUS
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name                                53 WILDWOOD, LLC
+maddress1                                        53 WILDWOOD AVE
+maddress2                                                    NaN
+mcity                                                  SALAMANCA
+mstate                                                  NEW YORK
+mzip                                                       14779
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                        53 WILDWOOD AVE
+paddress2                                                    NaN
+pcity                                                  SALAMANCA
+pstate                                                  NEW YORK
+pzip                                                       14779
+id                                                        154688
+name_score                                               0.99996
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 8, dtype: object
+-------------SOS candidate 245----------------
+DOS ID                                                   3948140
+bizname                        WILDWOOD PROPERTY MANAGEMENT, LLC
+Initial DOS Filing Date                               05/11/2010
+County                                               CATTARAUGUS
+Jurisdiction                                            NEW YORK
+Entity Type                   DOMESTIC LIMITED LIABILITY COMPANY
+DOS Process Name               WILDWOOD PROPERTY MANAGEMENT, LLC
+maddress1                                     53 WILDWOOD AVENUE
+maddress2                                                    NaN
+mcity                                                  SALAMANCA
+mstate                                                  NEW YORK
+mzip                                                       14779
+CEO Name                                                     NaN
+CEO Address 1                                                NaN
+CEO Address 2                                                NaN
+CEO City                                                     NaN
+CEO State                                                    NaN
+CEO Zip                                                      NaN
+Registered Agent Name                                        NaN
+Registered Agent Address 1                                   NaN
+Registered Agent Address 2                                   NaN
+Registered Agent City                                        NaN
+Registered Agent State                                       NaN
+Registered Agent Zip                                         NaN
+Location Name                                                NaN
+paddress1                                     53 WILDWOOD AVENUE
+paddress2                                                    NaN
+pcity                                                  SALAMANCA
+pstate                                                  NEW YORK
+pzip                                                       14779
+id                                                       2641557
+name_score                                              0.995281
+common_flag                                                    0
+StreetName_score                                             NaN
+StreetNamePostType_score                                     NaN
+AddressNumber_score                                          NaN
+ZipCode_score                                                NaN
+match                                                          1
+Name: 245, dtype: object
