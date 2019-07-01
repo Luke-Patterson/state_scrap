@@ -61,6 +61,7 @@ def WA_ordering(sos_id, impaq_id,doc_dir, rei, new):
             # confirm doc is not already in folder
             if (new == True and 'IMPAQID_' + str(impaq_id) + '_SoS_' + k +'.pdf' not in os.listdir(doc_dir))| \
                 (new == False and rei + '_SoS_' + k +'.pdf' not in os.listdir(doc_dir)):
+                time.sleep(1)
                 # open PDF
                 j.click()
                 time.sleep(5)
@@ -68,7 +69,7 @@ def WA_ordering(sos_id, impaq_id,doc_dir, rei, new):
                 if driver.find_element_by_xpath('//*[@id="divSearchResult"]/div/div/div/div[2]/div/table/tbody/tr/td') \
                     .text != 'No Value Found.':
                     driver.find_element_by_xpath('//i[@class="fa fa-file-text-o fa-lg ng-binding ng-isolate-scope ng-scope"]').click()
-                    time.sleep(1)
+                    time.sleep(2)
                     # find the downloaded file, rename it, then move to the doc dir
                     list_of_files = glob.glob('C:/Users/lpatterson/Downloads/*')
                     latest_file = max(list_of_files, key=os.path.getctime)
@@ -83,14 +84,14 @@ def WA_ordering(sos_id, impaq_id,doc_dir, rei, new):
     return([doc_types,doc_dates])
 df = pd.read_csv('C:/Users/lpatterson/AnacondaProjects/Tribal_Master/step_4_work/WA/WA_ownership_results.csv')
 df = df.loc[df['entity'].isna()==False]
-new_dir= 'C:/Users/lpatterson/AnacondaProjects/Tribal_Master/output/documentation/New Retailers/WA_temp'
-old_dir= 'C:/Users/lpatterson/AnacondaProjects/Tribal_Master/output/documentation/Existing Retailers/WA_temp'
+new_dir= 'C:/Users/lpatterson/AnacondaProjects/Tribal_Master/output/documentation/New Retailers'
+old_dir= 'C:/Users/lpatterson/AnacondaProjects/Tribal_Master/output/documentation/Existing Retailers'
 
 # merge REI into data set
-rei_df = pd.read_excel("C:/Users/lpatterson/AnacondaProjects/Tribal_Master/input/Public Retail Data_original.xlsx")
-rei_df['IMPAQ_ID'] = rei_df.index
-rei_df = rei_df[['REI','IMPAQ_ID']]
-df = df.merge(rei_df, how='left', on='IMPAQ_ID')
+# rei_df = pd.read_excel("C:/Users/lpatterson/AnacondaProjects/Tribal_Master/input/Public Retail Data_original.xlsx")
+# rei_df['IMPAQ_ID'] = rei_df.index
+# rei_df = rei_df[['REI','IMPAQ_ID']]
+# df = df.merge(rei_df, how='left', on='IMPAQ_ID')
 # create df for noting document types gathered
 doc_df=df[['IMPAQ_ID']].copy()
 doc_df['doc_types']=''
@@ -101,7 +102,7 @@ doc_df['doc_date']=''
 chrome_options = Options()
 chrome_options.add_argument("download.default_directory="+new_dir)
 driver = webdriver.Chrome(executable_path=
-    "C:/Users/lpatterson/AnacondaProjects/chrome_driver/chromedriver.exe",
+    "C:/Users/lpatterson/AnacondaProjects/Tribal_Master/chrome_driver/chromedriver.exe",
     chrome_options = chrome_options)
 actionChains = ActionChains(driver)
 driver.maximize_window()

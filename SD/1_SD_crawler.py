@@ -21,13 +21,13 @@ def MN_scrape(name, IMPAQ_ID):
     # select contains option
     driver.find_element_by_id('ctl00_MainContent_chkSearchIncludes').click()
     # type in name
-    driver.find_element_by_id('ctl00$MainContent$txtSearchValue').send_keys(name)
+    driver.find_element_by_id('ctl00_MainContent_txtSearchValue').send_keys(name)
     # click search
     driver.find_element_by_id('ctl00_MainContent_SearchButton').click()
     time.sleep(1)
     # see if any records were returned:
     if 'No Records Found....' not in \
-        driver.find_elements_by_id('ctl00_MainContent_SearchResultList').text:
+        driver.find_element_by_id('ctl00_MainContent_SearchResultList').text:
         # start a data frame to keep track of results
         result_df = pd.DataFrame()
         # find the rows in results.
@@ -40,9 +40,10 @@ def MN_scrape(name, IMPAQ_ID):
             time.sleep(1)
             labels = driver.find_elements_by_xpath(
                 '//*[@class="col-md-2 hidden-xs hidden-sm FieldLabel"]')
-            values = driver.find_elements_by_xpath('//*[@class="class="col-md-10""]')
-            labels = [i.text for i in labels]
-            values = [i.text for i in values]
+            values = driver.find_elements_by_xpath('//*[@class="col-md-10"]|//*[@class="col-md-3"]')
+            labels = [i.text.replace(':','') for i in labels]
+            values = [i.text.replace(':','') for i in values]
+            import pdb; pdb.set_trace()
             result= pd.Series(zip(labels, values))
             result['URL'] = driver.current_url
             result_df = result_df.append(result,ignore_index=True,sort=False)
