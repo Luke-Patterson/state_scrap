@@ -14,7 +14,7 @@ import time
 import string
 
 # function for scraping necessary information for a single store
-def MN_scrape(name, IMPAQ_ID):
+def SD_scrape(name, IMPAQ_ID):
     # open URL
     driver.get('https://sosenterprise.sd.gov/BusinessServices/Business/FilingSearch.aspx')
     time.sleep(1)
@@ -98,6 +98,6 @@ record_df = pd.DataFrame()
 #     , 'Agent Name','Agent Address', 'Store Address']
 for i,row in df.loc[3039:,:].iterrows():
     print(i)
-    record_df = record_df.append(MN_scrape(row['DBA Name_update'],row['IMPAQ_ID']),
+    record_df = record_df.append(SD_scrape(row['DBA Name_update'],row['IMPAQ_ID']),
         ignore_index=True,sort=False)
 record_df.to_csv(path +'/step_4_work/SD/candidate_records.csv',index=False)
