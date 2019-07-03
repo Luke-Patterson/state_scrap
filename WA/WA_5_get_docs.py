@@ -38,6 +38,8 @@ def WA_ordering(sos_id, impaq_id,doc_dir, rei, new):
     except:
         raise('screenshot error')
     # click on filing history
+    driver.find_element_by_xpath('/html/body').send_keys(Keys.PAGE_DOWN)
+    time.sleep(1)
     driver.find_element_by_id('btnFilingHistory').click()
     time.sleep(5)
     # get documents
@@ -64,7 +66,7 @@ def WA_ordering(sos_id, impaq_id,doc_dir, rei, new):
                 time.sleep(1)
                 # open PDF
                 j.click()
-                time.sleep(5)
+                time.sleep(10)
                 # saves to default downloads folder
                 if driver.find_element_by_xpath('//*[@id="divSearchResult"]/div/div/div/div[2]/div/table/tbody/tr/td') \
                     .text != 'No Value Found.':
@@ -88,10 +90,10 @@ new_dir= 'C:/Users/lpatterson/AnacondaProjects/Tribal_Master/output/documentatio
 old_dir= 'C:/Users/lpatterson/AnacondaProjects/Tribal_Master/output/documentation/Existing Retailers'
 
 # merge REI into data set
-# rei_df = pd.read_excel("C:/Users/lpatterson/AnacondaProjects/Tribal_Master/input/Public Retail Data_original.xlsx")
-# rei_df['IMPAQ_ID'] = rei_df.index
-# rei_df = rei_df[['REI','IMPAQ_ID']]
-# df = df.merge(rei_df, how='left', on='IMPAQ_ID')
+rei_df = pd.read_excel("C:/Users/lpatterson/AnacondaProjects/Tribal_Master/input/Public Retail Data_original.xlsx")
+rei_df['IMPAQ_ID'] = rei_df.index
+rei_df = rei_df[['REI','IMPAQ_ID']]
+df = df.merge(rei_df, how='left', on='IMPAQ_ID')
 # create df for noting document types gathered
 doc_df=df[['IMPAQ_ID']].copy()
 doc_df['doc_types']=''
@@ -117,7 +119,7 @@ for i,row in df.loc[df['ori_flg'] == 'New Retailer'].iterrows():
 chrome_options = Options()
 chrome_options.add_argument("download.default_directory="+old_dir)
 driver = webdriver.Chrome(executable_path=
-    "C:/Users/lpatterson/AnacondaProjects/chrome_driver/chromedriver.exe",
+    "C:/Users/lpatterson/AnacondaProjects/Tribal_Master/chrome_driver/chromedriver.exe",
     chrome_options = chrome_options)
 actionChains = ActionChains(driver)
 driver.maximize_window()
@@ -128,6 +130,6 @@ for i,row in df.loc[df['ori_flg'] != 'New Retailer'].iterrows():
     if result[1] !=[]:
         doc_df.at[i,'doc_date']= str(max([parser.parse(i) for i in result[1]]))[0:4]
 doc_df.to_csv('C:/Users/lpatterson/AnacondaProjects/Tribal_Master/step_4_work/WA' +
-    '/WA_docs_found_pt2.csv',index=False)
+    '/WA_docs_found_pt3.csv',index=False)
 
 print(time.process_time())

@@ -34,17 +34,47 @@ def MN_scrape(name, IMPAQ_ID):
         rows = driver.find_elements_by_xpath('//tr')[1:]
         row_count = 1
         # for each row, open the details tab
-        for _ in range(len(rows)):
+        for _ in range(min(len(rows),30)):
             i = driver.find_elements_by_xpath('//tr')[row_count]
+            id = i.find_element_by_xpath('./td[1]/a').text
+            type = i.find_element_by_xpath('./td[3]').text
             i.find_element_by_xpath('./td[1]/a').click()
             time.sleep(1)
+            # if it's a DBA, see if there's a link to click to the actual owning entity
+            if type == 'DBA - Business':
+                links = driver.find_elements_by_xpath('//a[contains(@href,"FilingDetail")]')
+                if len(links) > 0:
+                    links[0].click()
             labels = driver.find_elements_by_xpath(
-                '//*[@class="col-md-2 hidden-xs hidden-sm FieldLabel"]')
-            values = driver.find_elements_by_xpath('//*[@class="col-md-10"]|//*[@class="col-md-3"]')
-            labels = [i.text.replace(':','') for i in labels]
-            values = [i.text.replace(':','') for i in values]
-            import pdb; pdb.set_trace()
-            result= pd.Series(zip(labels, values))
+                '//*[@id="ctl00_MainContent_updatePanel"]' +
+                '//*[@class="col-md-2 hidden-xs hidden-sm FieldLabel"]|'+
+                '//*[@id="ctl00_MainContent_updatePanel"]' +
+                '//*[@class="col-md-3 hidden-xs hidden-sm FieldLabel"]|'+
+                '//*[@id="ctl00_MainContent_updatePanel"]' +
+                '//*[@class="col-md-offset-6 col-md-3 hidden-xs hidden-sm FieldLabel"]')
+            values = driver.find_elements_by_xpath('//*[@class="col-md-10"]|' +
+                '//*[@class="col-md-3"]|//*[@class="col-md-4"]')
+                #'//*[@id="ctl00_MainContent_txtOfficeAddresss"]')
+            labels = [i.text.replace(':','').strip() for i in labels]
+            values = [i.text.replace(':','').strip() for i in values]
+            index_val = values.index(id)
+            result= pd.Series(values[index_val:],index=labels)
+            # drop empty if present
+            try:
+                result= result.drop('')
+            except:
+                pass
+            # fix for multiples of same field
+            if any(result.index.duplicated()):
+                temp_idx = result.index.to_list()
+                newlist = []
+                for i, v in enumerate(temp_idx):
+                    totalcount = temp_idx.count(v)
+                    count = temp_idx[:i].count(v)
+                    newlist.append(v + str(count + 1) if totalcount > 1 else v)
+                # scrub 1's from the assignments
+                newlist = [i.replace('1','') for i in newlist]
+                result.index=newlist
             result['URL'] = driver.current_url
             result_df = result_df.append(result,ignore_index=True,sort=False)
             driver.execute_script("window.history.go(-1)")
@@ -66,7 +96,7 @@ df.index=df['IMPAQ_ID']
 record_df = pd.DataFrame()
 # record_df.columns =['IMPAQ_ID','Filing Number', 'Entity Name', 'Operation Status'
 #     , 'Agent Name','Agent Address', 'Store Address']
-for i,row in df.iterrows():
+for i,row in df.loc[3039:,:].iterrows():
     print(i)
     record_df = record_df.append(MN_scrape(row['DBA Name_update'],row['IMPAQ_ID']),
         ignore_index=True,sort=False)
