@@ -58,7 +58,7 @@ def MT_scrape(name, IMPAQ_ID):
     driver.find_element_by_xpath('//select[contains(@title, "Search Operator")]').send_keys(Keys.DOWN)
     driver.find_element_by_xpath('//select[contains(@title, "Search Operator")]').send_keys(Keys.ENTER)
     time.sleep(.5)
-    driver.find_element_by_xpath('//input[contains(@class, "webuiValidateDate")]').send_keys('01/01/1990')
+    driver.find_element_by_xpath('//input[contains(@class, "webuiValidateDate")]').send_keys('01/01/2000')
     # type in name
     driver.find_element_by_id('QueryString').send_keys(name)
     time.sleep(1)
@@ -85,7 +85,9 @@ def MT_scrape(name, IMPAQ_ID):
         for _ in range(min(len(rows),30)):
             back_count = 1
             row = driver.find_elements_by_xpath('//div[contains(@class,"appRepeaterRowContent")]')[row_count]
-            type = row.find_element_by_xpath('.//div[@class="appMinimalAttr Discriminant"]').text
+            type = row.find_element_by_xpath('.//div[@class="appMinimalAttr Discriminant"]|'+
+                './/div[@class="appMinimalAttr itemRegistrationType"]/span'+
+                '[@class="appMinimalValue"]').text
             type = type.replace('Entity Type','').strip()
             actions.move_to_element(row).perform()
             time.sleep(.5)
@@ -94,7 +96,8 @@ def MT_scrape(name, IMPAQ_ID):
             time.sleep(1)
             labels = driver.find_elements_by_xpath('//*[@class="appLabelText"]')
             values = driver.find_elements_by_xpath('//*[@class="appAttrValue"]|'+
-                '//div[contains(@class,"appAttrHyperlink")]/a')
+                '//div[contains(@class,"appAttrHyperlink")]/a|'+
+                '//li[@class="select2-selection__choice"]')
             labels = [i.text for i in labels]
             labels[0] = 'Record Name on Website'
             values = [i.text for i in values]
@@ -105,13 +108,15 @@ def MT_scrape(name, IMPAQ_ID):
             result= pd.Series(values,index=labels)
             # if type is Assumed Business Name and there's an entity listed,
             # navigate to that record and rescrap data:
-            if type =='Assumed Business Name' and 'Business Identifier' in labels:
+            if type =='Assumed Business Name' and 'Business Identifier' in labels \
+                and result['Business Identifier']!='Unresolved':
                 MT_record(result['Business Identifier'])
                 time.sleep(5)
                 # rescrap data
                 labels = driver.find_elements_by_xpath('//*[@class="appLabelText"]')
                 values = driver.find_elements_by_xpath('//*[@class="appAttrValue"]|'+
-                    '//div[contains(@class,"appAttrHyperlink")]/a')
+                    '//div[contains(@class,"appAttrHyperlink")]/a|'+
+                    '//li[@class="select2-selection__choice"]')
                 labels = [i.text for i in labels]
                 labels[0] = 'Record Name on Website'
                 values = [i.text for i in values]
@@ -131,7 +136,6 @@ def MT_scrape(name, IMPAQ_ID):
                     count = temp_idx[:i].count(v)
                     newlist.append(v + str(count + 1) if totalcount > 1 else v)
                 # scrub 1's from the assignments
-                newlist = [i.replace('1','') for i in newlist]
                 result.index=newlist
             result['URL'] = driver.current_url
             result['type'] = type
@@ -157,7 +161,7 @@ df.index=df['IMPAQ_ID']
 record_df = pd.DataFrame()
 # record_df.columns =['IMPAQ_ID','Filing Number', 'Entity Name', 'Operation Status'
 #     , 'Agent Name','Agent Address', 'Store Address']
-for i,row in df.loc[3039:,:].iterrows():
+for i,row in df.loc[:,:].iterrows():
     print(i)
     record_df = record_df.append(MT_scrape(row['DBA Name_update'],row['IMPAQ_ID']),
         ignore_index=True,sort=False)
