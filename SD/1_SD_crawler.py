@@ -96,7 +96,7 @@ df.index=df['IMPAQ_ID']
 record_df = pd.DataFrame()
 # record_df.columns =['IMPAQ_ID','Filing Number', 'Entity Name', 'Operation Status'
 #     , 'Agent Name','Agent Address', 'Store Address']
-for i,row in df.loc[3039:,:].iterrows():
+for i,row in df.loc[:,:].iterrows():
     print(i)
     record_df = record_df.append(SD_scrape(row['DBA Name_update'],row['IMPAQ_ID']),
         ignore_index=True,sort=False)
