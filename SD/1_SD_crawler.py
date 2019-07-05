@@ -94,10 +94,21 @@ df= pd.read_csv(path + "/step_3_work/output/full_retailer_list.csv")
 df= df.loc[df['State']=='SD',:]
 df.index=df['IMPAQ_ID']
 record_df = pd.DataFrame()
+errors = pd.Series()
 # record_df.columns =['IMPAQ_ID','Filing Number', 'Entity Name', 'Operation Status'
 #     , 'Agent Name','Agent Address', 'Store Address']
 for i,row in df.loc[:,:].iterrows():
     print(i)
-    record_df = record_df.append(SD_scrape(row['DBA Name_update'],row['IMPAQ_ID']),
-        ignore_index=True,sort=False)
-record_df.to_csv(path +'/step_4_work/SD/candidate_records.csv',index=False)
+    try:
+        record_df = record_df.append(SD_scrape(row['DBA Name_update'],row['IMPAQ_ID']),
+            ignore_index=True,sort=False)
+    except:
+        chrome_options = Options()
+        driver = webdriver.Chrome(executable_path= \
+            path + "/chrome_driver/chromedriver.exe")
+        actions = ActionChains(driver)
+        driver.maximize_window()
+        print('error scraping record #' +str(i))
+        errors.append(pd.Series(row['IMPAQ_ID']))
+record_df.to_csv(path + '/step_4_work/SD/SD_candidate_records.csv',index=False)
+errors.to_csv(path + '/step_4_work/SD/SD_scraping_errors.csv',index=False)
