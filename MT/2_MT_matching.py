@@ -20,8 +20,11 @@ sos_df=sos_df.loc[sos_df['type']!='Assumed Business Name'].dropna(axis=1,how='al
 sos_df['ID_idx_start']=sos_df['Record Name on Website'].str.find('(')
 sos_df['ID_idx_end']=sos_df['Record Name on Website'].str.find(')')
 sos_df['Business Identifier']=sos_df.apply(lambda x:
-        x['Record Name on Website'][x['ID_idx_start']+1:x['ID_idx_end']],axis=1)
-
+    x['Record Name on Website'][x['ID_idx_start']+1:x['ID_idx_end']],axis=1)
+# isolate the name part of the 'Record Name on Website' column
+sos_df['Record Name on Website']=sos_df.apply(lambda x:sos_df.apply(lambda x:
+    x['Record Name on Website'][:x['ID_idx_start']],axis=1))
+sos_df['Record Name on Website']=sos_df['Record Name on Website'].str.strip()
 # load FDA data
 FDA_dir='C:/Users/lpatterson/AnacondaProjects/Tribal_Master'
 fda_df = pd.read_csv(FDA_dir + '/step_3_work/output/full_retailer_list.csv')
@@ -40,6 +43,7 @@ def try_tag(str):
 
 # run for all stores
 for i,fda_row in fda_df.iterrows():
+    print(i)
     temp_sos = sos_df.loc[sos_df['IMPAQ_ID'] == fda_row['IMPAQ_ID']]
     if temp_sos.empty == False:
         out = mf.name_match_scoring(fda_row, temp_sos, fda_colname='DBA Name_update',
@@ -85,9 +89,21 @@ for i,fda_row in fda_df.iterrows():
                         temp_elems.iloc[n]=False
                 fda_df.loc[i,'agent_address'] = pd.Series(address).str.cat(
                     na_rep='', sep = ' ').strip().upper()
-                fda_df.loc[i,'agent_city'] = address['PlaceName']
-                fda_df.loc[i,'agent_state'] = address['StateName']
-                fda_df.loc[i,'agent_zip'] = str(address['ZipCode'])[0:5]
+                try:
+                    fda_df.loc[i,'agent_city'] = address['PlaceName']
+                except:
+                    print('error parsing city from agent address')
+                    pass
+                try:
+                    fda_df.loc[i,'agent_state'] = address['StateName']
+                except:
+                    print('error parsing state from agent address')
+                    pass
+                try:
+                    fda_df.loc[i,'agent_zip'] = str(address['ZipCode'])[0:5]
+                except:
+                    print('error parsing state from agent address')
+                    pass
             fda_df.loc[i,'URL'] = match['URL']
 fda_df.to_csv('C:/Users/lpatterson/AnacondaProjects/Tribal_Master/step_4_work/' +
     'MT/MT_FDA_matches.csv',index=False)
