@@ -64,7 +64,6 @@ rei_df = pd.read_excel("C:/Users/lpatterson/AnacondaProjects/Tribal_Master/input
 rei_df['IMPAQ_ID'] = rei_df.index
 rei_df = rei_df[['REI','IMPAQ_ID']]
 df = df.merge(rei_df, how='left', on='IMPAQ_ID')
-
 # no documents to get for free, so just saving screenshots
 for i,row in df.loc[:,:].iterrows():
     print(i)
@@ -72,4 +71,3 @@ for i,row in df.loc[:,:].iterrows():
         MT_ordering(row.SoS_record, row.IMPAQ_ID,new_dir, row.REI,row.URL, new=True)
     else:
         MT_ordering(row.SoS_record, row.IMPAQ_ID,old_dir, row.REI,row.URL, new=False)
-print(time.process_time())
