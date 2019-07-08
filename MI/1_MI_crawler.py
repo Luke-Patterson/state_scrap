@@ -82,12 +82,16 @@ def MI_scrape(name, IMPAQ_ID):
             # delineate labels and values
             labels = [i for i in text if ':' in i]
             values = [i for i in text if ':' not in i]
-            try:
-                result= pd.Series(values,index=labels)
-            except:
-                print('error: parsed different number of labels and fields for a candidate')
-                continue
-            # fix for multiples of same field
+            #try:
+            result= pd.Series(values,index=labels)
+            # except:
+            #     print('error: parsed different number of labels and fields for a candidate')
+            #     for i in range(back_count):
+            #         driver.execute_script("window.history.go(-1)")
+            #         time.sleep(1)
+            #     row_count +=1
+            #     continue
+            # # fix for multiples of same field
             if any(result.index.duplicated()):
                 temp_idx = result.index.to_list()
                 newlist = []
