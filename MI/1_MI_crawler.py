@@ -154,7 +154,7 @@ record_df = pd.DataFrame()
 errors = pd.Series()
 # record_df.columns =['IMPAQ_ID','Filing Number', 'Entity Name', 'Operation Status'
 #     , 'Agent Name','Agent Address', 'Store Address']
-for i,row in df.loc[:,:].iterrows():
+for i,row in df.loc[2047:,:].iterrows():
     print(i)
     # try:
     record_df = record_df.append(MI_scrape(row['DBA Name_update'],row['IMPAQ_ID']),
@@ -167,5 +167,5 @@ for i,row in df.loc[:,:].iterrows():
     #     driver.maximize_window()
     #     print('error scraping record #' +str(i))
     #     errors.append(pd.Series(row['IMPAQ_ID']))
-record_df.to_csv(path + '/step_4_work/MI/MI_candidate_records.csv',index=False)
-errors.to_csv(path + + '/step_4_work/MI/MI_scraping_errors.csv',index=False)
+record_df.to_csv(path + '/step_4_work/MI/MI_candidate_records_pt2.csv',index=False)
+errors.to_csv(path + '/step_4_work/MI/MI_scraping_errors.csv',index=False)

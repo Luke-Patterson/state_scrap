@@ -13,10 +13,10 @@ driver = webdriver.Chrome(executable_path= \
 
 df = pd.read_csv('C:/Users/lpatterson/AnacondaProjects/Tribal_Master/step_4_work/' +
     'MN/MN_FDA_matches.csv',dtype='str')
-# rei_df = pd.read_excel('C:/Users/lpatterson/AnacondaProjects/Tribal_Master/input/' +
-#     'Public retail data_original.xlsx',dtype='str')
-# rei_df.index = rei_df.index.astype('str')
-# df = df.merge(rei_df[['REI']], how='left', left_on='IMPAQ_ID',right_index=True)
+rei_df = pd.read_excel('C:/Users/lpatterson/AnacondaProjects/Tribal_Master/input/' +
+    'Public retail data_original.xlsx',dtype='str')
+rei_df.index = rei_df.index.astype('str')
+df = df.merge(rei_df[['REI']], how='left', left_on='IMPAQ_ID',right_index=True)
 for i,row in df.iterrows():
     if pd.isna(row.SoS_record) == False:
         url = row.URL
