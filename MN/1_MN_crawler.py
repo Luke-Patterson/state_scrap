@@ -36,10 +36,10 @@ def MN_scrape(name, IMPAQ_ID):
         rows = driver.find_elements_by_xpath('//tr')[1:]
         row_count = 1
         # for each row, open the details tab
-        for _ in range(len(rows)):
+        for _ in range(min(len(rows),30)):
             i = driver.find_elements_by_xpath('//tr')[row_count]
             i.find_element_by_xpath('./td[2]/a').click()
-            time.sleep(1)
+            time.sleep(2)
             data_tbl = driver.find_element_by_id('filingSummary')
             cells = driver.find_elements_by_xpath('//dl')
             cell_df= pd.DataFrame()
@@ -72,8 +72,8 @@ df.index=df['IMPAQ_ID']
 record_df = pd.DataFrame()
 # record_df.columns =['IMPAQ_ID','Filing Number', 'Entity Name', 'Operation Status'
 #     , 'Agent Name','Agent Address', 'Store Address']
-for i,row in df.loc[2547:,:].iterrows():
+for i,row in df.loc[:,:].iterrows():
     print(i)
     record_df = record_df.append(MN_scrape(row['DBA Name_update'],row['IMPAQ_ID']),
         ignore_index=True,sort=False)
-record_df.to_csv(path +'/step_4_work/MN/candidate_records_pt5.csv',index=False)
+record_df.to_csv(path +'/step_4_work/MN/candidate_records.csv',index=False)

@@ -64,26 +64,56 @@ def MI_scrape(name, IMPAQ_ID):
             text = [i for i in text if i[-1]==':' or ':' not in i]
             # first two values are repeated data without labels
             text = text[2:]
-            # label_pos creates flags for labels
-            label_pos = [1 if ':' in i else 0 for i in text]
-            # we'll then check to see if labels appear consecutively, and
-            # insert blank values when no value accompanies a label
-            prev=None
-            newtemp=[]
-            for i,j in zip(text,label_pos):
-                if prev==1 & j==1:
-                    newtemp.append('')
-                newtemp.append(i)
-                prev=j
+            # # label_pos creates flags for labels
+            # label_pos = [1 if ':' in i else 0 for i in text]
+            # # we'll then check to see if labels appear consecutively, and
+            # # insert blank values when no value accompanies a label
+            # prev=None
+            # newtemp=[]
+            # for i,j in zip(text,label_pos):
+            #     if prev==1 & j==1:
+            #         newtemp.append('')
+            #     newtemp.append(i)
+            #     prev=j
+            # # make sure we are not ending on a label
+            # if prev==1:
+            #     newtemp.append('')
+            # text=newtemp
+            #
+            # # delineate labels and values
+            # labels = [i for i in text if ':' in i]
+            # values = [i for i in text if ':' not in i]
+
+            # try the New Mexico method for this
+            # detect value/label pairs through looking for colons and alternating pairs
+            prev_label_flg=0
+            prev_value_flg=0
+            labels=[]
+            values=[]
+            for i in text:
+                if ':' in i:
+                    if prev_label_flg==1:
+                        values.append('')
+                        labels.append(i)
+                        prev_label_flg=1
+                        prev_value_flg=0
+                    if prev_label_flg==0:
+                        labels.append(i)
+                        prev_label_flg=1
+                        prev_value_flg=0
+                else:
+                    if prev_label_flg==1:
+                        values.append(i)
+                        prev_label_flg=0
+                        prev_value_flg=1
+                    if prev_label_flg==0:
+                        prev_label_flg=0
+                        prev_value_flg=1
             # make sure we are not ending on a label
-            if prev==1:
-                newtemp.append('')
-            text=newtemp
-            # delineate labels and values
-            labels = [i for i in text if ':' in i]
-            values = [i for i in text if ':' not in i]
-            #try:
+            if prev_label_flg==1:
+                 values.append('')
             result= pd.Series(values,index=labels)
+            #try:
             # except:
             #     print('error: parsed different number of labels and fields for a candidate')
             #     for i in range(back_count):
